@@ -1,9 +1,5 @@
 # Contributing
 
-Please don’t contribute content yet. First we should agree on the contributing
-guidelines. I have put here the current text just so that we have something to
-take off.
-
 ## General
 
 Fork this repository, create and checkout a new branch. Do the changes you want
