@@ -29,14 +29,14 @@ to these guidelines.
 
 Do not be shy to suggest changes and point out mistakes. The goal is to have
 good guides (although it is not a good idea to block a pull request for more
-than a week).
+than a week with nitpicks).
 
 You can also discuss the reviews by others.
 
 ### Suggesting changes
 
-Create an issue and describe the suggestion. You can also create a pull
-request—in that case it will be discussed there.
+Create an issue and describe the suggestion. You can also create a pull request
+if you have a more concrete idea—in that case it will be discussed there.
 
 ---
 
