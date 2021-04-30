@@ -1,6 +1,15 @@
 # Contributing
 
-## General
+## Ways to contribute
+
+You can:
+
+- write guides,
+- proofread and correct them,
+- review and discuss pull requests,
+- suggest changes regarding this project.
+
+### Writing / editing guides
 
 Fork this repository, create and checkout a new branch. Do the changes you want
 to do and submit a pull request on GitHub.
@@ -9,12 +18,27 @@ If you explicitly want to discuss something, still have work to be done (but you
 want to prevent effort duplication) or don’t want the pull request to be merged
 yet, mark it as a draft. This is why the posibility exists.
 
-Try to follow the recommendations below, most of them will be enforced anyway.
-If they do not mention something, the reviewer will try to enforce their style.
-In case a reviewer points on something that doesn’t match their style but
-matches yours, please open an issue or discuss it in the pull request
-conversation; we have to agree on one or the other way and add it to these
-guidelines.
+Try to follow the recommendations in the other part of this file, most of them
+will be enforced anyway. If they do not mention something, the reviewer will try
+to enforce their style.  In case a reviewer points on something that doesn’t
+match their style but matches yours, please open an issue or discuss it in the
+pull request conversation; we have to agree on one or the other way and add it
+to these guidelines.
+
+### Reviewing pull requests
+
+Do not be shy to suggest changes and point out mistakes. The goal is to have
+good guides (although it is not a good idea to block a pull request for more
+than a week).
+
+You can also discuss the reviews by others.
+
+### Suggesting changes
+
+Create an issue and describe the suggestion. You can also create a pull
+request—in that case it will be discussed there.
+
+---
 
 ## File names
 
