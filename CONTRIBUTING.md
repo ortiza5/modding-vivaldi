@@ -20,7 +20,7 @@ yet, mark it as a draft. This is why the posibility exists.
 
 Try to follow the recommendations in the other part of this file, most of them
 will be enforced anyway. If they do not mention something, the reviewer will try
-to enforce their style.  In case a reviewer points on something that doesn’t
+to enforce their style. In case a reviewer points on something that doesn’t
 match their style but matches yours, please open an issue or discuss it in the
 pull request conversation; we have to agree on one or the other way and add it
 to these guidelines.
