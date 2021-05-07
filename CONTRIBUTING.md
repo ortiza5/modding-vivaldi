@@ -11,7 +11,9 @@ You can:
 
 ### Writing / editing guides
 
-Fork this repository, create and checkout a new branch. Do the changes you want
+Fork this repository, create and checkout a new branch (this is important, since
+I intend to use squash merges, which would cause your `master` to be different
+from upstream if you used `master` for pull requests). Do the changes you want
 to do and submit a pull request on GitHub.
 
 If you explicitly want to discuss something, still have work to be done (but you
