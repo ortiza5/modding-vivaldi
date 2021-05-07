@@ -73,7 +73,7 @@ hyphen `-` and dot `.` in file names.
 ## Images etc.
 
 Images and other resources like them are in an `assets/` directory in the root
-of the corresponding “project”, structured according to their use.
+of the corresponding “project,” structured according to their use.
 
 - Keep images as small (in both area and size) as possible,
 - prefer static images to gifs or videos,
