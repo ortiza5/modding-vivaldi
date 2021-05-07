@@ -86,7 +86,7 @@ of the corresponding “project”, structured according to their use.
 ## Code style / file format
 
 - Indent with two spaces,
-- unless otherwise specified, keep every line at most 80 characters long,
+- try to keep every line short; in plain text, wrap lines at column 80,
 - end every line with a line feed character (every means even the last one),
 - do not use multiple empty lines without a good reason,
 - avoid trailing whitespace,
@@ -105,8 +105,9 @@ of the corresponding “project”, structured according to their use.
 - use three backticks for code blocks, always specify the language,
 - add a space after `#` in headings and each `>` in block quotes,
 - do not rely on implicit continuation of block quotes and similar,
-- separate lists, block quotes, code blocks, headings, separators and similar
-  from other content with a blank line on each side,
+- separate lists, block quotes, code blocks, headings, separators, images
+  (unless they are inline) and similar from other content with a blank line on
+  each side,
 - specify links like “here” inline or using a reasonable identifier; links like
   “CSS” (with the address going to a specification or Wikipedia entry, not a
   guide) should use the reference style,
