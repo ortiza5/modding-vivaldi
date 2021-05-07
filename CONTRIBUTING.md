@@ -20,6 +20,11 @@ If you explicitly want to discuss something, still have work to be done (but you
 want to prevent effort duplication) or don’t want the pull request to be merged
 yet, mark it as a draft. This is why the posibility exists.
 
+Unless you’ve only fixed a typo, include yourself as an author at the beginning
+of the file, right below the heading. Use your GitHub username and (if your
+usernames on GitHub and Vivaldi Forum differ) your Vivaldi Forum username in
+parentheses.
+
 Try to follow the recommendations in the other part of this file, most of them
 will be enforced anyway. If they do not mention something, the reviewer will try
 to enforce their style. In case a reviewer points on something that doesn’t
