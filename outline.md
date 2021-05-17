@@ -12,10 +12,12 @@ Items marked with a start * require further discussion.
 
 ## CSS
  - Welcome (1)
- - Installing Mods (2)
+ - Installing Mods (2) *
+     - Author: tiogz
  - Inspecting the interface (3a)
- - Your first CSS Mod (6)
+ - Your first CSS Mod (6) *
  - Using Browser Classes (8)
+    - Author: code3z and ortiza5
  - Sharing is Caring! : Posting Mods and Best Practices * (4)
 
 
@@ -25,14 +27,14 @@ Items marked with a start * require further discussion.
 - Installing Mods (2)
 - Inspecting the interface (3b)
  - And using the Console
-- Your First JS Mod (5)
-- Keyboard Shortcuts (9)
+- Your First JS Mod (5) * 
 - Sharing is Caring! : Posting Mods and Best Practices * (4)
 
 ## Advanced JS
 - Mutation Observers (11)
 - Vivaldi. APIs (12)
-- Mod UI and adding
+- Mod UI and adding settings
+- Keyboard Shortcuts (9)
 
 ## External Resources
  - Resources Page (7)
