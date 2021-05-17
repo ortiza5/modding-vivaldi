@@ -13,7 +13,7 @@ Items marked with a start * require further discussion.
 ## CSS
  - Welcome (1)
  - Installing Mods (2) *
-     - Author: tiogz
+     - Author: tiosgz
  - Inspecting the interface (3a)
  - Your first CSS Mod (6) *
  - Using Browser Classes (8)
@@ -24,7 +24,8 @@ Items marked with a start * require further discussion.
 
 ## JS
 - Welcome (1)
-- Installing Mods (2)
+- Installing Mods (2) *
+   - Author tiosgz
 - Inspecting the interface (3b)
  - And using the Console
 - Your First JS Mod (5) * 
