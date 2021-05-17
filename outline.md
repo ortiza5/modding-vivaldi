@@ -32,6 +32,9 @@ Items marked with a start * require further discussion.
 
 ## Advanced JS
 - Mutation Observers (11)
+
+https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
+
 - Vivaldi. APIs (12)
 - Mod UI and adding settings
 - Keyboard Shortcuts (9)
