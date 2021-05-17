@@ -17,7 +17,7 @@ Items marked with a start * require further discussion.
  - Inspecting the interface (3a)
  - Your first CSS Mod (6) *
  - Using Browser Classes (8)
-    - Author: code3z and ortiza5
+    - Author: code3z and (maybe) ortiza5
  - Sharing is Caring! : Posting Mods and Best Practices * (4)
 
 
@@ -37,8 +37,10 @@ Items marked with a start * require further discussion.
 https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
 
 - Vivaldi. APIs (12)
-- Mod UI and adding settings
+   - Authors (maybe) LonM
+- Mod UI and adding settings *
 - Keyboard Shortcuts (9)
+    - Authors: code3z
 
 ## External Resources
  - Resources Page (7)
