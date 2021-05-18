@@ -85,3 +85,10 @@ For example, if you have put it in the `mods` folder and it is called
 
 When you are done, save the file. After restarting Vivaldi you should see the
 effect of the modifications.
+
+// single file vs each in its own file
+// hooks?
+// creating the files, text editors
+// sample mod?
+// disable/uninstall
+// updating, adding mods
