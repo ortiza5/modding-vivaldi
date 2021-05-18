@@ -2,6 +2,15 @@
 
 Author(s): tiosgz (potmeklecbohdan)
 
+There are various tools that do all the work for you (e.g. those in the pinned
+topics on the [forum](https://forum.vivaldi.net/category/52/modifications) or
+[LonM’s Python
+script](https://github.com/LonMcGregor/VivaldiMods/blob/master/custom.py)). Each
+of them is used differently and most of them have usage instructions included
+somewhere. This guide describes how to install your modifications manually. If
+you want to use [VivaldiHooks](https://github.com/justdanpo/VivaldiHooks),
+follow the instructions at that repository.
+
 There are two ways to install modifications, each of them works for different
 mods. While you can set up CSS mods once and then forget about them until they
 break, you have to re-apply JavaScript mods each time you update Vivaldi.
