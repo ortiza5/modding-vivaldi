@@ -46,21 +46,42 @@ you do not, double check all the requirements above.
 If you want to use JavaScript mods, prepare for more difficulties with their
 installation.
 
-// create a folder for mods
+It is recommended that you create a folder somewhere (in your documents folder?)
+to store your JavaScript modifications. Vivaldi will not use this folder
+directly, it is only for you to have everything in a safe place.
 
-// create mods files
+Place your JS mods into that folder. All of them are plain text files (if you
+don’t know what that means, think Notepad) with `.js` at the end of their names
+(you may have to enable something like “show file name extensions” to see this
+ending).
 
-// find browser.html
+Now you will have to find the folder where Vivaldi is installed. The usual
+places are:
 
-// copy the files over
+- on Windows: `resources\vivaldi` in a numbered folder in one of these:
+  - `%localappdata%\Vivaldi\Application\` (you will have to paste it into the
+    location field)
+  - `C:\Program Files\Vivaldi\Application\`
+- on Linux: `/opt/vivaldi/resources/vivaldi/` (or an `/opt/vivaldi-snapshot`
+  variant)
+- on MacOS: `/Applications/Vivaldi.app/Contents/Frameworks/Vivaldi
+  Framework.framework/Versions/Current/Resources/vivaldi/` (or an
+  `/Applications/Vivaldi Snapshot.app` variant)
 
-// edit browser.html
+Copy your JavaScript modifications into that folder. It is recommended to put
+them in a new subfolder (called for example `mods`).
 
+Just for case, back up `browser.html` found in the folder. Open the original
+`browser.html` in a text editor. Find a line with `</body>`. For every JS mod,
+insert a line like follows before the line with `</body>`:
 
+```html
+<script src="mods/custom.js"></script>
+```
 
+Do not forget to use the path to the actual file instead of `mods/custom.js`.
+For example, if you have put it in the `mods` folder and it is called
+`someCoolMod.js`, use `mods/someCoolMod.js`.
 
-
-/opt/vivaldi[-snapshot]/resources/vivaldi/browser.html
-/Applications/Vivaldi[ Snapshot].app/Contents/Frameworks/Vivaldi Framework.framework/Versions/Current/Resources/vivaldi/browser.html
-%localappdata%\Vivaldi\Application\{version}\resources\vivaldi\browser.html
-C:\Program Files[ (x86)]\Vivaldi\Application\{version}\resources\vivaldi\browser.html
+When you are done, save the file. After restarting Vivaldi you should see the
+effect of the modifications.
