@@ -149,7 +149,3 @@ To edit a plain text file instead, usually you can right-click on it, choose
 something like “open with” and then select a text editor.
 
 [mk-textfile]:#creating-a-plain-text-file
-
-// single file vs each in its own file
-// hooks?
-// sample mod?
