@@ -20,6 +20,15 @@ folder which you’ve created in previous step.
 The steps until now have to be done only once. The steps below have to be done
 for every CSS modification.
 
+You can use the following modification to check if you do everything correctly.
+It should make everything red.
+
+```css
+* {
+  background: red !important;
+}
+```
+
 Create a [plain text file][mk-textfile] in the folder that you’ve created in
 the first step. Paste the full code of the modification into it.
 
@@ -69,6 +78,18 @@ directly, it is only for you to have everything in a safe place.
 
 Place your JS mods into that folder. All of them are [plain text
 files][mk-textfile] with `.js` at the end of their names.
+
+You can use the following modification to check that you do everything
+correctly. It should make all text green.
+
+```javascript
+let paintItGreen = document.createElement("style");
+paintItGreen.innerHTML = `
+  * {
+    color: #00ff00 !important;
+  }`;
+document.head.append(paintItGreen);
+```
 
 Now you will have to find the folder where Vivaldi is installed. The usual
 places are:
