@@ -20,14 +20,12 @@ folder which you’ve created in previous step.
 The steps until now have to be done only once. The steps below have to be done
 for every CSS modification.
 
-Create a plain text file in the folder that you’ve created in the first step.
+Create a [plain text file][mk-textfile] in the folder that you’ve created in
+the first step. Paste the full code of the modification into it.
+
 It must be directly in the folder (**not in a subfolder**), or it won’t be
 noticed by Vivaldi. Make sure that the file name contains **no spaces**. The
-file name must also end with **`.css`** (you may have to enable something like
-“show file name extensions” in the file manager).
-
-Now open the newly created file with a text editor (for example Notepad), paste
-the full code of the modification and save the file.
+file name must also end with **`.css`**.
 
 Restart Vivaldi. After that, you should see the effect of the modification. If
 you do not, double check all the requirements above.
@@ -69,10 +67,8 @@ It is recommended that you create a folder somewhere (in your documents folder?)
 to store your JavaScript modifications. Vivaldi will not use this folder
 directly, it is only for you to have everything in a safe place.
 
-Place your JS mods into that folder. All of them are plain text files (if you
-don’t know what that means, think Notepad) with `.js` at the end of their names
-(you may have to enable something like “show file name extensions” to see this
-ending).
+Place your JS mods into that folder. All of them are [plain text
+files][mk-textfile] with `.js` at the end of their names.
 
 Now you will have to find the folder where Vivaldi is installed. The usual
 places are:
@@ -131,7 +127,29 @@ let’s say, `browser-modded.html` before).
 To completely remove a JS mod, apart from doing the above, remove its file so
 that you don’t reuse it the next time you re-apply your mods.
 
+## Creating a plain text file
+
+1. open a text editor; if you are unsure what that is, try these:
+   - on Windows, Notepad should be pre-installed
+   - on Mac, it’s TextEdit (but you will have to open preferences and choose
+     that you want to use plain text format)
+   - on Linux, it differs a lot: it might be Kate, Mousepad, Leafpad or Gedit or
+     something else
+2. write or copy-paste in the text
+3. save the file: when you are asked to name it, don’t forget to put the
+   relevant ending  into the name (while modding Vivaldi, it is usually `.css`
+   or `.js`) and choose **not** to append `.txt` (select “all files (\*.\*)” or
+   something like that)
+
+If you forget to use the right file name ending and want to fix it from the file
+manager, you may have to enable something like “show file name extensions” to
+see these endings.
+
+To edit a plain text file instead, usually you can right-click on it, choose
+something like “open with” and then select a text editor.
+
+[mk-textfile]:#creating-a-plain-text-file
+
 // single file vs each in its own file
 // hooks?
-// creating the files, text editors
 // sample mod?
