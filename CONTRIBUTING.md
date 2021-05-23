@@ -32,6 +32,8 @@ match their style but matches yours, please open an issue or discuss it in the
 pull request conversation; we have to agree on one or the other way and add it
 to these guidelines.
 
+If you do not know what to write, check out the issues.
+
 ### Reviewing pull requests
 
 Do not be shy to suggest changes and point out mistakes. The goal is to have
@@ -105,7 +107,15 @@ of the corresponding “project,” structured according to their use.
 - Try to avoid HTML,
 - do not interrupt lists; instead, indent continuation of any items,
 - use ordered lists only when the order or count matters,
-- use three backticks for code blocks, always specify the language,
+- use three backticks for code blocks, always specify the language (like shown
+  here),
+
+  ```css
+  body {
+    background: white;
+  }
+  ```
+
 - separate lists, block quotes, code blocks, headings, separators, images
   (unless they are inline) and similar from other content with a blank line on
   each side,
