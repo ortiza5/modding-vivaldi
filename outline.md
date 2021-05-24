@@ -16,8 +16,6 @@ Items marked with a start * require further discussion.
      - Author: tiosgz
  - Inspecting the interface (3a)
  - Your first CSS Mod (6) *
- - Using Browser Classes (8)
-    - Author: code3z and (maybe) ortiza5
  - Sharing is Caring! : Posting Mods and Best Practices * (4)
 
 
@@ -28,7 +26,7 @@ Items marked with a start * require further discussion.
    - Author tiosgz
 - Inspecting the interface (3b)
  - And using the Console
-- Your First JS Mod (5) * 
+- Your First JS Mod (5) *
 - Sharing is Caring! : Posting Mods and Best Practices * (4)
 
 ## Advanced JS
@@ -41,6 +39,13 @@ https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
 - Mod UI and adding settings *
 - Keyboard Shortcuts (9)
     - Authors: code3z
+
+## Advanced CSS
+- Using Browser Classes (8)
+   - Author: code3z and (maybe) ortiza5
+- Advanced Selectors
+- Advanced Styles
+ - -webkit-app-region
 
 ## External Resources
  - Resources Page (7)
