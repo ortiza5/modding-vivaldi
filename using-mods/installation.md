@@ -13,12 +13,12 @@ documents folder?). Make sure that the folder name and path to it **do not
 contain a space**, otherwise the mods won’t work. Done?
 
 Open Vivaldi and go to `vivaldi://experiments`, find the checkbox labeled
-“Allow for using CSS modifications” and tick it. Open settings, go to the
+“Allow for using CSS modifications” and tick it. Open the settings, go to the
 “Appearance” tab, namely section “Custom UI modifications,” and select the
-folder which you’ve created in previous step.
+folder which you’ve created in the previous step.
 
-The steps until now have to be done only once. The steps below have to be done
-for every CSS modification.
+The steps until now have to be done only once. The rest has to be done for every
+CSS modification.
 
 You can use the following modification to check if you do everything correctly.
 It should make everything red.
@@ -34,7 +34,7 @@ the first step. Paste the full code of the modification into it.
 
 It must be directly in the folder (**not in a subfolder**), or it won’t be
 noticed by Vivaldi. Make sure that the file name contains **no spaces**. The
-file name must also end with **`.css`**.
+file name must end with **`.css`**.
 
 Restart Vivaldi. After that, you should see the effect of the modification. If
 you do not, double check all the requirements above.
@@ -52,7 +52,7 @@ To disable all CSS modifications at once, you can go to `vivaldi://experiments`
 and untick “Allow for using CSS modifications,” or go to the “Appearance” tab in
 the settings and clear the field under “Custom UI modifications.”
 
-To disable only one modifications, you can rename its file so that its name
+To disable only one modification, you can rename its file so that its name
 doesn’t end with `.css`. If you want to get rid of it completely, you can delete
 the file.
 
@@ -107,9 +107,9 @@ places are:
 Copy your JavaScript modifications into that folder. It is recommended to put
 them in a new subfolder (called for example `mods`).
 
-Just for case, back up `browser.html` found in the folder. Open the original
-`browser.html` in a text editor. Find a line with `</body>`. For every JS mod,
-insert a line like follows before the line with `</body>`:
+Just for case, back up `browser.html` found in the folder. Then open the
+original `browser.html` in a text editor and find a line with `</body>`. For
+every JS mod, insert a line like follows before the line with `</body>`:
 
 ```html
 <script src="mods/custom.js"></script>
@@ -125,7 +125,7 @@ effect of the modifications.
 ### After a Vivaldi update
 
 Every Vivaldi update causes all your JS mods to be removed. Follow the steps
-above beginning with finding the folder where Vivaldi is installed (if you are
+above, beginning with finding the folder where Vivaldi is installed (if you are
 on Linux, you can usually skip the copying of modification files).
 
 ### Updating JavaScript modifications
@@ -145,8 +145,8 @@ To disable all JS mods at once, you can move the backup of `browser.html` back
 to `browser.html` (it isn’t a bad idea to move the modified `browser.html` to,
 let’s say, `browser-modded.html` before).
 
-To completely remove a JS mod, apart from doing the above, remove its file so
-that you don’t reuse it the next time you re-apply your mods.
+To completely remove a JS mod, apart from doing the above, remove both its files
+so that you don’t reuse it the next time you re-apply your mods.
 
 ## Creating a plain text file
 
@@ -166,7 +166,7 @@ If you forget to use the right file name ending and want to fix it from the file
 manager, you may have to enable something like “show file name extensions” to
 see these endings.
 
-To edit a plain text file instead, usually you can right-click on it, choose
-something like “open with” and then select a text editor.
+To edit a plain text file, usually you can right-click on it, choose something
+like “open with” and then select a text editor.
 
 [mk-textfile]:#creating-a-plain-text-file
