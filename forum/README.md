@@ -3,8 +3,10 @@
 The [modding forum]() will be extremely helpful to learning how to mod and getting mods from others. You will need a [vivaldi account](https://login.vivaldi.net) to post there. You may also want to look at these git repositories for more mods:
 <TODO>
 
-Contents
+Contents (for drafting only, to be taken out)
 - ## Asking Questions
+  - Approval:
+  - TODOs: 
 - ## Sharing mods
  - Code headers
    - Approval:
@@ -16,5 +18,5 @@ Contents
    - Approval:
    - TODOs:  
  - Forum Etiquette
-   - Approval:
+   - Approval: tiosgz says remove it
    - TODOs:
