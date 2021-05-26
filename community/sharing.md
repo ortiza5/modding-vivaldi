@@ -16,7 +16,7 @@ Putting a comment at the top of your code helps people understand it, use it, an
   *	Filename:          <filename>
   *	Platform:          <Linux/Mac/Windows/All>
   *	Version:           <version>
-  *	Date:              <date>
+  *	Date:              <date or last update>
   *	Author:            <github username, forum username, other contributors>
   *	Topic:             https://forum.vivaldi.net/topic/<topic>
 **/
@@ -24,7 +24,7 @@ Putting a comment at the top of your code helps people understand it, use it, an
 
 ### Versioning Your Mods
 
-TODO
+Instead of tracking each edit to your mod as a separate version, its easier and sometimes more helpful to include the latest version of Vivaldi that it was tested in. Along with the last update time, this will let you and others keep track of the mod version.
 
 ## Tagging your Mods
 
