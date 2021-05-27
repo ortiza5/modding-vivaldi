@@ -53,14 +53,14 @@ The target element is the part of the HTML structure that the observer will watc
 
 ### Configuration Options (`configurationOptions`)
 
-The configuration options are a JavaScript `object` that sets up the observer to watch for the appropriate types of mutations on the target element. There are many different options, but the 2 most important to mods are `attributes` and `childList`. A more complete explaination of all the options can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#parameters).
+The configuration options are a JavaScript `object` that sets up the observer to watch for the appropriate types of mutations on the target element. There are many different options, but the 2 most important to mods are `attributes` and `childList`. A more complete explanation of all the options can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#parameters).
 
 - Setting `configurationOptions = {attributes: true}` will set the observer to watch for changes to the attributes of the `targetElement`.
 
   - This is particularly useful for detecting changes in state represented by adding or removing a class on an element. Like with classes such as `.active` or `.hidden`.
   - The `#browser` div in Vivaldi contains several state based classes that reflect settings the user has selected.
 
-- Setting `configurationOptions = {childsList: true}` will set the observer to watch for child elements of the `targetElement` that are added or removed.
+- Setting `configurationOptions = {childList: true}` will set the observer to watch for child elements of the `targetElement` that are added or removed.
 
   - Sometimes elements are not hidden or transformed into something else when a change to the UI is made. In these cases, new elements are added, so an observer of this type is useful to detect those changes.
   - Adding `subtree: true` as well, like so `{childList: true, subtree: true}`, will extend the observer to all decedent elements of the `targetElement`rather than only the first layer of children.
@@ -82,7 +82,7 @@ The configuration options are a JavaScript `object` that sets up the observer to
 
 The handler function is run whenever a mutation of the types you configured is detected.
 
-The list of mutations should be passed in as a parameter to allow the function to perform different actions depending on the contents of the mutations. In the example, this parameter is named `mutatations` and included like so:
+The list of mutations should be passed in as a parameter to allow the function to perform different actions depending on the contents of the mutations. In the example, this parameter is named `mutations` and included like so:
 
 ```JavaScript
 function callBack (mutations) {
