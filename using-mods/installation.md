@@ -68,9 +68,11 @@ topics on the [forum](https://forum.vivaldi.net/category/52/modifications) or
 [LonM’s Python
 script](https://github.com/LonMcGregor/VivaldiMods/blob/master/custom.py)). Each
 of them is used differently and most of them have usage instructions included
-somewhere. This guide describes how to install your modifications manually. If
-you want to use [VivaldiHooks](https://github.com/justdanpo/VivaldiHooks),
-follow the instructions at that repository.
+somewhere. They are much more convenient, so if you can figure out how to use
+them, that’s the way to go. This guide describes how to install your
+modifications manually. If you want to use [VivaldiHooks
+](https://github.com/justdanpo/VivaldiHooks), follow the instructions at that
+repository.
 
 It is recommended that you create a folder somewhere (in your documents folder?)
 to store your JavaScript modifications. Vivaldi will not use this folder
