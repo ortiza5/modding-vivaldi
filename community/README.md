@@ -1,6 +1,6 @@
 # Using the Forum
 
-The [modding forum]() will be extremely helpful to learning how to mod and getting mods from others. You will need a [vivaldi account](https://login.vivaldi.net) to post there. You may also want to look at these git repositories for more mods:
+The [modding forum](https://forum.vivaldi.net/category/52/modifications) will be extremely helpful to learning how to mod and getting mods from others. You will need a [vivaldi account](https://login.vivaldi.net) to post there. You may also want to look at these git repositories for more mods:
  - https://github.com/LonMcGregor/VivaldiMods
  - https://github.com/luetage/vivaldi_modding
  - (Work in progress, more to be added)
