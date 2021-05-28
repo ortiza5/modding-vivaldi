@@ -6,7 +6,7 @@
         <mask id="mask-2" fill="white">
           <rect x="0" y="0" width="152" height="152" rx="12" transform="matrix(1, 0, 0, 1, 0, 0)"/>
         </mask>
-        <rect id="Mask" x="0" y="0" width="152" height="152" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#2879FF" rx="23.044" ry="23.044"/>
+        <rect id="Mask" x="0" y="0" width="152" height="152" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#2879FF" rx="23.044" ry="23.044" style="visibility: hidden;"/>
         <g id="Grid" mask="url(#mask-2)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="0.5">
           <g transform="translate(-20.000000, -20.000000)">
             <path d="M 0 0 L 192 192" id="Shape"/>
