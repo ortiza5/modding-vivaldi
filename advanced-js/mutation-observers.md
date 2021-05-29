@@ -63,7 +63,6 @@ The configuration options are a JavaScript `object` that sets up the observer to
 
   - Sometimes elements are not hidden or transformed into something else when a change to the UI is made. In these cases, new elements are added, so an observer of this type is useful to detect those changes.
   - Adding `subtree: true` as well, like so `{childList: true, subtree: true}`, will extend the observer to all decedent elements of the `targetElement`rather than only the first layer of children.
-
     - So all the elements below the `.parent` will be observed with this configuration (denoted by the class `observed`):
 
       ```HTML
