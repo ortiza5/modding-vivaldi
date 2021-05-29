@@ -7,17 +7,16 @@ There are many different elements to Vivaldi's interface that can be toggled on 
 You can always tell the users that they aren't allowed to use various settings that you know are incompatible with your mod, but in order to make a more robust mod that fits with a wider range of users with diverse browser workflows, you should make your mod handle changes in the UI gracefully. One way to accomplish this is with Mutation Observers.
 
 ## Contents
+- [Basics of mutation observers](#basics-of-mutation-observers)
+  - [Target element](#target-element-targetelement)
+  - [Configuration options](#configuration-options-configurationoptions)
+  - [Handler function for mutations](#handler-function-for-mutations-callback)
+- [Code examples](#code-examples)
+  - [Fullscreen observer](#fullscreen-observer)
+  - [Address bar / mail bar observer](#address-bar--mail-bar-observer)
+  - [Toggling UI element (status bar) observer](#toggling-ui-element-status-bar-observer)
 
-- [Basics of Mutation Observers](#basics-of-mutation-observers)
-  - [Target Element](#target-element-targetelement)
-  - [Configuration Options](#configuration-options-configurationoptions)
-  - [Handler Function for Mutations](#handler-function-for-mutations-callback)
-- [Code Examples](#code-examples)
-  - [Fullscreen Observer](#fullscreen-observer)
-  - [Address Bar / Mail Bar Observer](#address-bar--mail-bar-observer)
-  - [Toggling UI Element (Status Bar) Observer](#toggling-ui-element-status-bar-observer)
-
-## Basics of Mutation Observers
+## Basics of mutation observers
 
 The main purpose of Mutation Observers is, as the name suggests, to observe for mutations. These mutations, or changes, can be for things like adding or removing an element and changing attributes like classes on an element.
 
@@ -47,11 +46,11 @@ The actual creation of the observer is only contained in the last 2 lines, but i
 - The configuration options
 - The handler function for mutations
 
-### Target Element (`targetElement`)
+### Target element (`targetElement`)
 
 The target element is the part of the HTML structure that the observer will watch. The element can be selected with methods like: `document.querySelector`, `document.getElementById`, or `document.getElementsByClassname` (when paired with selecting the first result with `[0]`).
 
-### Configuration Options (`configurationOptions`)
+### Configuration options (`configurationOptions`)
 
 The configuration options are a JavaScript `object` that sets up the observer to watch for the appropriate types of mutations on the target element. There are many different options, but the 2 most important to mods are `attributes` and `childList`. A more complete explanation of all the options can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#parameters).
 
@@ -78,7 +77,7 @@ The configuration options are a JavaScript `object` that sets up the observer to
       <div class="notObserved"> ... </div>
       ```
 
-### Handler Function for Mutations (`callBack()`)
+### Handler function for mutations (`callBack()`)
 
 The handler function is run whenever a mutation of the types you configured is detected.
 
@@ -95,11 +94,11 @@ Once an individual mutation is isolated, you can check what type of mutation it 
 
 When it is determined that the mutation is the correct type that you are looking for, you can then do any checks on it that you wish and run any actions accordingly. See the code examples below to see various implementations that describe what you can do. The [fullscreen observer](#fullscreen-observer) shows an example of acting on an attribute change and the [address bar / mail bar observer](#address-bar--mail-bar-observer) shows checking `addedNodes` with a childList observer.
 
-## Code Examples
+## Code examples
 
 The following are some examples of Mutation Observers that could be useful in the creation of mods. They start with the full code and then include an explanation of how they work.
 
-### Fullscreen Observer
+### Fullscreen observer
 
 // TODO: write intro
 
@@ -130,7 +129,7 @@ fullscreenObserver.observe(browser, { attributes: true });
 
 ---
 
-### Address Bar / Mail Bar Observer
+### Address bar / mail bar observer
 
 // TODO: write intro
 
@@ -169,7 +168,7 @@ addressBarObserver.observe(main, { childList: true });
 
 ---
 
-### Toggling UI Element (Status Bar) Observer
+### Toggling UI element (status bar) observer
 
 // TODO: write intro
 
