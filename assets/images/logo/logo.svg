@@ -1,29 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
-  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(3.204584, 0, 0, 3.204584, -55.123859, -55.123875)" style="">
-    <g id="Master">
-      <g id="Logo" transform="translate(20.000000, 20.000000)">
-        <mask id="mask-2" fill="white">
-          <rect x="0" y="0" width="152" height="152" rx="12" transform="matrix(1, 0, 0, 1, 0, 0)"/>
-        </mask>
-        <rect id="Mask" x="0" y="0" width="152" height="152" transform="matrix(1, 0, 0, 1, 0, 0)" fill="#2879FF" rx="23.044" ry="23.044"/>
-        <g id="Grid" mask="url(#mask-2)" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="0.5">
-          <g transform="translate(-20.000000, -20.000000)">
-            <path d="M 0 0 L 192 192" id="Shape"/>
-            <path d="M 192 0 L 0 192" id="Shape"/>
-            <path d="M 123.75 0 L 123.75 192" id="Shape"/>
-            <path d="M 68.25 0 L 68.25 192" id="Shape"/>
-            <path d="M 192 123.75 L 0 123.75" id="Shape"/>
-            <path d="M 192 68.25 L 0 68.25" id="Shape"/>
-            <circle id="Oval" cx="96" cy="96" r="39"/>
-            <path d="M 0 96 L 192 96" id="Shape"/>
-            <path d="M 96 0 L 96 192" id="Shape"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.49531425"
+     inkscape:cx="57.539228"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Logo" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g218"
+       transform="matrix(0.26458333,0,0,0.26458333,38.15335,81.688426)">
+      <g
+         id="Page-1"
+         stroke="none"
+         stroke-width="1"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(3.204584,0,0,3.204584,-55.123859,-55.123875)">
+        <g
+           id="Master">
+          <g
+             id="Logo"
+             transform="translate(20,20)">
+            <mask
+               id="mask-2"
+               fill="#ffffff">
+              <rect
+                 x="0"
+                 y="0"
+                 width="152"
+                 height="152"
+                 rx="12"
+                 id="rect163" />
+            </mask>
+            <rect
+               id="Mask"
+               x="0"
+               y="0"
+               width="152"
+               height="152"
+               fill="#2879ff"
+               rx="23.044001"
+               ry="23.044001" />
+            <g
+               id="Grid"
+               mask="url(#mask-2)"
+               stroke="#ffffff"
+               stroke-opacity="0.3"
+               stroke-width="1.5">
+              <g
+                 transform="translate(-20,-20)"
+                 id="g183">
+                <path
+                   d="M 0,0 192,192"
+                   id="Shape" />
+                <path
+                   d="M 192,0 0,192"
+                   id="path168" />
+                <path
+                   d="M 123.75,0 V 192"
+                   id="path170" />
+                <path
+                   d="M 68.25,0 V 192"
+                   id="path172" />
+                <path
+                   d="M 192,123.75 H 0"
+                   id="path174" />
+                <path
+                   d="M 192,68.25 H 0"
+                   id="path176" />
+                <circle
+                   id="Oval"
+                   cx="96"
+                   cy="96"
+                   r="39" />
+                <path
+                   d="M 0,96 H 192"
+                   id="path179" />
+                <path
+                   d="M 96,0 V 192"
+                   id="path181" />
+              </g>
+            </g>
           </g>
         </g>
       </g>
+      <g
+         transform="matrix(27.087233,0,0,27.087233,46.981766,39.768677)"
+         id="g191">
+        <path
+           fill-rule="evenodd"
+           d="m 10.96,4.446 c -0.497,-1.021 0.033,-2.165 1.115,-2.41 0.881,-0.2 1.793,0.463 1.91,1.379 0.051,0.403 -0.027,0.772 -0.222,1.118 -1.605,2.855 -3.213,5.709 -4.816,8.566 -0.298,0.53 -0.731,0.852 -1.325,0.896 C 6.957,14.044 6.434,13.757 6.098,13.166 5.082,11.377 4.078,9.58 3.069,7.787 2.455,6.695 1.839,5.605 1.228,4.512 0.612,3.41 1.307,2.07 2.544,2.005 3.197,1.971 3.701,2.279 4.032,2.859 4.485,3.653 4.929,4.452 5.378,5.249 5.701,5.822 6.018,6.4 6.35,6.968 6.832,7.792 7.539,8.257 8.481,8.315 9.814,8.396 11.051,7.408 11.211,5.957 11.223,5.848 11.231,5.74 11.236,5.684 11.228,5.215 11.143,4.819 10.96,4.446 Z"
+           style="fill:#ffffff"
+           id="path189" />
+      </g>
     </g>
-  </g>
-  <g style="" transform="matrix(27.087233, 0, 0, 27.087233, 46.981766, 39.768677)">
-    <path fill-rule="evenodd" d="M 10.96 4.446 C 10.463 3.425 10.993 2.281 12.075 2.036 C 12.956 1.836 13.868 2.499 13.985 3.415 C 14.036 3.818 13.958 4.187 13.763 4.533 C 12.158 7.388 10.55 10.242 8.947 13.099 C 8.649 13.629 8.216 13.951 7.622 13.995 C 6.957 14.044 6.434 13.757 6.098 13.166 C 5.082 11.377 4.078 9.58 3.069 7.787 C 2.455 6.695 1.839 5.605 1.228 4.512 C 0.612 3.41 1.307 2.07 2.544 2.005 C 3.197 1.971 3.701 2.279 4.032 2.859 C 4.485 3.653 4.929 4.452 5.378 5.249 C 5.701 5.822 6.018 6.4 6.35 6.968 C 6.832 7.792 7.539 8.257 8.481 8.315 C 9.814 8.396 11.051 7.408 11.211 5.957 C 11.223 5.848 11.231 5.74 11.236 5.684 C 11.228 5.215 11.143 4.819 10.96 4.446 Z" style="fill: rgb(255, 255, 255);"/>
   </g>
 </svg>
