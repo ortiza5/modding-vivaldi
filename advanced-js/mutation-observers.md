@@ -106,11 +106,15 @@ The following are some examples of Mutation Observers that could be useful in th
 
 ```JavaScript
 let browser = document.getElementById("browser");
-let oldState = browser.classList.contains("fullscreen") || browser.classList.contains("minimal-ui");
+let oldState =
+  browser.classList.contains("fullscreen") ||
+  browser.classList.contains("minimal-ui");
 let fullscreenObserver = new MutationObserver(function (mutations) {
   mutations.forEach(function (mutation) {
     if (mutation.attributeName == "class") {
-      let isFullscreen = mutation.target.classList.contains("fullscreen") || mutation.target.classList.contains("minimal-ui");
+      let isFullscreen =
+        mutation.target.classList.contains("fullscreen") ||
+        mutation.target.classList.contains("minimal-ui");
       if (oldState !== isFullscreen) {
         oldState = isFullscreen;
         if (!isFullscreen) {
@@ -145,7 +149,8 @@ let addressBarObserver = new MutationObserver(function (mutations) {
     // length attribute when it contains added nodes
     if (mutation.addedNodes.length) {
       // get the new state of the addressbar
-      let isMailBarActive = mutation.addedNodes[0].classList.contains("toolbar-mailbar");
+      let isMailBarActive =
+        mutation.addedNodes[0].classList.contains("toolbar-mailbar");
 
       // if it is different from the previous state, we need to act on it
       if (oldIsMailBarActive !== isMailBarActive) {
@@ -179,7 +184,11 @@ addressBarObserver.observe(main, { childList: true });
 let browser = document.getElementById("browser");
 let browserObserver = new MutationObserver(function (mutations) {
   mutations.forEach(function (mutation) {
-    if (Array.from(mutation.addedNodes).find((element) => element.classList.contains("toolbar-statusbar"))) {
+    if (
+      Array.from(mutation.addedNodes).find((element) => {
+        element.classList.contains("toolbar-statusbar");
+      })
+    ) {
       ...
     }
   });
