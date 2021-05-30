@@ -17,3 +17,5 @@ Vivaldi, make sure that you have all modifications disabled.**
 - using mods
   - [installation](using-mods/installation.md)—*I’ve got some code, what to do
     with it?*
+- miscellaneous
+  - [useful links and resources](misc/resources.md)
