@@ -13,4 +13,6 @@ When asking a question, keep a few simple things in mind:
 
 ## Asking For mods
 
-You can use the forum to ask someone to make a mod for you. But remember that it is a big favor: if they wanted this mod themselves, they would have almost certainly made it. So be patient and realize that you may not get an answer at all, especially if what you're asking is hard to do. If you think that what you're asking should be implemented in Vivaldi directly, make sure you have made a feature request for it in the correct section of the forum.
+You can use the forum to ask someone to make a mod for you. But remember that it is a big favor: if they wanted this mod themselves, they would have almost certainly made it. So be patient and realize that you may not get an answer at all, especially if what you're asking is hard to do.
+
+If you think that what you're asking should be implemented in Vivaldi directly, make sure you have made a feature request for it in the correct section of the forum.
