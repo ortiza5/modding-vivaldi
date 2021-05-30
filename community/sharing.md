@@ -18,7 +18,7 @@ Putting a comment at the top of your code helps people understand it, use it, an
  * https://forum.vivaldi.net/topic/<topic>
 	- - -   
  * Description:        <description>
-    <If your description is long, put the second part here>
+ *    <If your description is long, put the second part here>
  * Filename:          <filename>
  * Platform:          <Linux/Mac/Windows/All>
  * Version:           Vivaldi version <version>
