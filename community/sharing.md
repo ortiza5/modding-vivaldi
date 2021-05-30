@@ -3,6 +3,9 @@ Author(s): code3z (@code3 on the forum)
 
 Once you've created a mod that you're proud of, the next step is to share it. Sharing will be a big help to other people. You can also get feedback and help from the community. But it may also mean you have to respond to bugs in your code and help other people use your code.
 
+## Managing Mods
+
+To share mods you need to be able to manage them well. The developer tool called Git can help a lot with this, and will also help others contribute and make your mods better. There are also some other recommended methods and formats that can help you organize your mods, please see the "Managing Mods" section of this guide.
 
 ## Code headers
 
@@ -13,6 +16,7 @@ Putting a comment at the top of your code helps people understand it, use it, an
  * https://forum.vivaldi.net/topic/<topic>
 	- - -   
  * Description:        <description>
+ <If your description is long, put the second part here>
  * Filename:          <filename>
  * Platform:          <Linux/Mac/Windows/All>
  * Version:           Vivaldi version <version>
