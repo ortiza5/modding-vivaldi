@@ -4,6 +4,8 @@ Author(s): code3z (code3 on the forum) and tiosgz (potmeklecbohdan on the forum)
 
 CSS styles are fairly easy to add to Vivaldi, and most of the time you will probably use Vivaldi's native CSS mods manager. But for JS mods that require a little bit of CSS, you may want to combine the CSS in Javascript.
 
+The benefit is that it's all in one file, and easier for users to install. The downsides are that the CSS is harder to customize, and the code is a bit harder to write.
+
 <!-- tabs:start -->
 
 #### ** **JavaScript Template** **
@@ -15,7 +17,11 @@ CSS styles are fairly easy to add to Vivaldi, and most of the time you will prob
   styles.type = "text/css";
   styles.setAttribute("data-id", "<name-of-mod>-styles");
 styles.innerHTML = `/* Add CSS styles here.
-They can take up multiple lines. */
+They can take up multiple lines. Example: */
+* {
+  color: #00ff00 !important;
+}
+
 `;
 document.head.append(styles);
 })();
