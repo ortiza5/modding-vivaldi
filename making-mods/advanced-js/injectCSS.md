@@ -79,7 +79,7 @@ The code is wrapped in
 
 Because the ``<style>`` element was given a custom data-id, it can be selected like this:
 ```JavaScript
-document.querySelector('style[data-id="history-clock-styles"]');
+document.querySelector('style[data-id="<name of mod>-styles"]');
 ```
 
 In order to be changed or deleted. The `data-id` is also useful when inspecting the code.
