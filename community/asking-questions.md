@@ -2,7 +2,7 @@
 
 Author(s): code3z (@code3 on the forum)
 
-The [modding forum](https://forum.vivaldi.net/category/52/modifications) is also a great place to ask questions about modding. Before asking, search the forum and the internet to make sure there is not already a good answer.
+The [modding forum](https://forum.vivaldi.net/category/52/modifications) is also a great place to ask questions about modding. Before asking, search the forum and the internet to check if there is not already a good answer.
 
 When asking a question, keep a few simple things in mind:
  - Use a topic title that is descriptive
