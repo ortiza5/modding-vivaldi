@@ -89,7 +89,7 @@ function callback(mutations) {
 
 There is often more than one mutation included in the list, so it is important to check each one individually. This is accomplished with a `forEach` loop in the example (usage information can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)).
 
-Once an individual mutation is isolated, you can check what type of mutation it is by looking at the `type` attribute of the mutation object ( `if (mutation.type === ... ) { ...` ). The types that are possible are determined by the configuration of the observer. The `type` could be equal to `attribute` or `childList` based on the configuration options outlined above.
+Once an individual mutation is isolated, you can check what type of mutation it is by looking at the `type` attribute of the mutation object ( `if (mutation.type === ... ) { ...` ). The types that are possible are determined by the configuration of the observer. The `type` could be “`attribute`” or “`childList`” based on the configuration options outlined above.
 
 When it is determined that the mutation is the correct type that you are looking for, you can then do any checks on it that you wish and run any actions accordingly. See the code examples below to see various implementations that describe what you can do. The [fullscreen observer](#fullscreen-observer) shows an example of acting on an attribute change and the [address bar / mail bar observer](#address-bar--mail-bar-observer) shows checking `addedNodes` with a childList observer.
 
