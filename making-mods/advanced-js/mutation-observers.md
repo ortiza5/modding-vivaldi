@@ -40,7 +40,7 @@ const observer = new MutationObserver(callBack);
 observer.observe(targetElement, configurationOptions);
 ```
 
-The actual creation of the observer is only contained in the last 2 lines, but in order to successfully get it to do what you want, you need to set up certain values prior to creating the observer (you can define them in place, but it is better practice to define the values beforehand). The 3 parts you need to provide are as follows:
+The actual creation of the observer is only contained in the last two lines, but in order to successfully get it to do what you want, you need to set up certain values prior to creating the observer (you can define them in place, but it is better practice to define the values beforehand). The three parts you need to provide are as follows:
 
 - The target element
 - The configuration options
