@@ -28,7 +28,7 @@ The basic structure of a mutation observer should look something like this:
 const targetElement = document.querySelector(" ... ");
 const configurationOptions = { ... : true};
 
-function callBack (mutations) {
+function callback(mutations) {
   mutations.forEach(function (mutation) {
     if (mutation.type === ... ) {
       // act on mutation here
@@ -36,7 +36,7 @@ function callBack (mutations) {
   }
 }
 
-const observer = new MutationObserver(callBack);
+const observer = new MutationObserver(callback);
 observer.observe(targetElement, configurationOptions);
 ```
 
@@ -76,14 +76,14 @@ The configuration options are a JavaScript `object` that sets up the observer to
       <div class="notObserved"> ... </div>
       ```
 
-### Handler function for mutations (`callBack()`)
+### Handler function for mutations (`callback()`)
 
 The handler function is run whenever a mutation of the types you configured is detected.
 
 The list of mutations should be passed in as a parameter to allow the function to perform different actions depending on the contents of the mutations. In the example, this parameter is named `mutations` and included like so:
 
 ```JavaScript
-function callBack (mutations) {
+function callback(mutations) {
   ...
 ```
 
