@@ -52,7 +52,7 @@ The target element is the part of the HTML structure that the observer will watc
 
 ### Configuration options (`configurationOptions`)
 
-The configuration options are a JavaScript `object` that sets up the observer to watch for the appropriate types of mutations on the target element. There are many different options, but the 2 most important to mods are `attributes` and `childList`. A more complete explanation of all the options can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver/observe#parameters).
+The configuration options are a JavaScript `object` that sets up the observer to watch for the appropriate types of mutations on the target element. There are many different options, but the 2 most important to mods are `attributes` and `childList`. A more complete explanation of all the options can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserverInit).
 
 - Setting `configurationOptions = {attributes: true}` will set the observer to watch for changes to the attributes of the `targetElement`.
 
