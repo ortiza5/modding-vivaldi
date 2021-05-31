@@ -4,7 +4,7 @@ Author(s): ortiza5 (nomadic)
 
 There are many different elements to Vivaldi's interface that can be toggled on and off with different settings or keyboard shortcuts. While this is great for customizability, JavaScript mods that affect these UI elements can easily be inadvertently broken by simple actions such as hiding a toolbar, entering fullscreen, or switching over to the built in email experiment.
 
-You can always tell the users that they aren't allowed to use various settings that you know are incompatible with your mod, but in order to make a more robust mod that fits with a wider range of users with diverse browser workflows, you should make your mod handle changes in the UI gracefully. One way to accomplish this is with Mutation Observers.
+You can always tell the users that they aren't allowed to use various settings that you know are incompatible with your mod, but in order to make a more robust mod that fits with a wider range of users with diverse browser workflows, you should make your mod handle changes in the UI gracefully. One way to accomplish this is with mutation observers.
 
 ## Contents
 - [Basics of mutation observers](#basics-of-mutation-observers)
@@ -18,9 +18,9 @@ You can always tell the users that they aren't allowed to use various settings t
 
 ## Basics of mutation observers
 
-The main purpose of Mutation Observers is, as the name suggests, to observe for mutations. These mutations, or changes, can be for things like adding or removing an element and changing attributes like classes on an element.
+The main purpose of mutation observers is, as the name suggests, to observe for mutations. These mutations, or changes, can be for things like adding or removing an element and changing attributes like classes on an element.
 
-The basic structure of a Mutation Observer should look something like this:
+The basic structure of a mutation observer should look something like this:
 
 ```JavaScript
 // Fill in "..." with appropriate values
@@ -95,7 +95,7 @@ When it is determined that the mutation is the correct type that you are looking
 
 ## Code examples
 
-The following are some examples of Mutation Observers that could be useful in the creation of mods. They start with the full code and then include an explanation of how they work.
+The following are some examples of mutation observers that could be useful in the creation of mods. They start with the full code and then include an explanation of how they work.
 
 ### Fullscreen observer
 
