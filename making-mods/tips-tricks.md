@@ -32,9 +32,9 @@ twice, because it will make both parts (less or more) harder to understand.
 
 ```javascript
 // Just in case, check it isn't there yet
-if (!document.head.querySelector('style#myModStyle')) {
+if (!document.head.querySelector('style#myModStyle')) { // Replace myModStyle
   const style = document.createElement('style');
-  style.id = 'myModStyle';
+  style.id = 'myModStyle'; // Again, replace myModStyle accordingly
   style.innerHTML = `
     * {
       background-color: red !important;
