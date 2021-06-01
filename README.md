@@ -11,3 +11,9 @@ for them.**
 **When a modification stops working, do not blame Vivaldi and instead ask the
 author of the modification politely if they can fix it. When reporting bugs to
 Vivaldi, make sure that you have all modifications disabled.**
+
+
+
+Community
+ - [Sharing Mods](community/sharing.md)
+ - [Asking Questions](community/asking-questions.md)
