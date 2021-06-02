@@ -1,6 +1,6 @@
 # Logo
 
-Authors: code3z (@code3 on the forum) and ortiza5 (@nomadic on the forum)
+Creators: code3z (@code3 on the forum) and ortiza5 (@nomadic on the forum)
 
 ⚠️ The content in this folder and subfolders is NOT in the public domain and the
 Unlicense does NOT apply.
