@@ -12,8 +12,12 @@ for them.**
 author of the modification politely if they can fix it. When reporting bugs to
 Vivaldi, make sure that you have all modifications disabled.**
 
+## Contents
 
+- using mods
+  - [installation](using-mods/installation.md)—*I’ve got some code, what to do
+    with it?*
 
-Community
- - [Sharing Mods](community/sharing.md)
- - [Asking Questions](community/asking-questions.md)
+- Community
+  - [Sharing Mods](community/sharing.md) - *I've got a cool mod, how can I share it and make it easy for others to use?*
+  - [Asking Questions](community/asking-questions.md) - *I need some help, where and how should I ask?*
