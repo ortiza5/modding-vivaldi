@@ -1,6 +1,6 @@
 # Speed Dials
 
-  These are custom speed dials made with [Vivaldi Speed Dial Generator](#todo)
+  These are custom speed dials made with [Vivaldi Speed Dial Generator](https://vivaldi-thumbnails.netlify.app/)
   and using the official theme colors.
 
   They can be used for your bookmarks to the Modding Guide and to vivaldi://inspect.
