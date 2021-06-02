@@ -18,13 +18,3 @@ Permissions:
 https://web.archive.org/web/20210601045407if_/https://forum.vivaldi.net/topic/61636/legal-usage-of-vivaldi-logo/8
 
 https://web.archive.org/web/20210531210157/https://github.com/ChromeDevTools/devtools-logo
-
-## Colors
-
-Colors derived [here](https://www.csscolorpalettes.com/palettes/948).
-
- - Logo Base: #0b409c
- - Accent: #10316b
- - Highlight: #fdbe34
- - Dark: #1E2328
- - Light: white
