@@ -133,6 +133,55 @@ of the corresponding “project,” structured according to their use.
   “CSS” (with the address going to a specification or Wikipedia entry, not a
   guide) should use the reference style.
 
+```markdown
+# Example MarkDown
+
+This is a _MarkDown_ text to demonstrate the style required in this repository.
+
+## Formatting
+
+So, to show you some formatting:
+
+- **Bold** and _italics_,
+- link to [there](https://github.com/tiosgz/modding-vivaldi), [Vivaldi] and
+  [Vivaldi Forum][vforum] (you can choose any of the possibilities),
+
+  another link: <http://example.com/>, in a new paragraph in the same list item,
+- another item with `inline code`
+
+  ```plaintext
+  and a code block
+  ```
+
+[Vivaldi]:https://vivaldi.com/
+[vforum]:https://forum.vivaldi.net/
+
+### More formatting
+
+1. now a numbered list—the order of the items matters here (though it doesn’t
+   seem to)
+2. notice that you can write in sentences or a single sentence over the whole
+   list or like this—or however you wish, just stay consistent in the whole file
+
+   > a block quote, part of the 2nd item
+
+> Another block quote, not in the list.
+>
+> When you want to continue it, add the marks in front of every line.
+>
+> ---
+>
+> Yes, that thing above is a separator.
+>
+> > And a nested quote.
+
+## Image
+
+Here, see the silhouette of the Octocat (or rather just the code for it)
+
+![Octocat](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+```
+
 ### CSS
 
 - Make a separate line for every selector (so that commas are at the end of
