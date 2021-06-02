@@ -19,5 +19,8 @@ Vivaldi, make sure that you have all modifications disabled.**
     with it?*
 
 - Community
-  - [Sharing Mods](community/sharing.md) - *I've got a cool mod, how can I share it and make it easy for others to use?*
-  - [Asking Questions](community/asking-questions.md) - *I need some help, where and how should I ask?*
+  - [Sharing Mods](community/sharing.md) - *I've got a cool mod, how can I share it
+  and make it easy for others to use?*
+
+  - [Asking Questions](community/asking-questions.md) - *I need some help,
+  where and how should I ask?*
