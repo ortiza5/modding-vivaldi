@@ -70,14 +70,14 @@ Only use tags that are suggested from the drop-down.
 
 ## Describing your mods
 
-Now that you've added your code, titled your post, and tagged it, you need to write content!
-What you write is really up to you, but be sure to include what the mod does,
-how it will help people, and if it has any shortcomings or bugs or does not
-work with certain settings.
+Now that you've added your code, titled your post, and tagged it,
+you need to write content! What you write is really up to you, but be sure to
+include what the mod does, how it will help people, and if it has any shortcomings
+or bugs or if it does not work with certain settings.
 
-You should also **include a screenshot**. If the mod does something that can only be shown
-through a screen recording, take a screen recording and upload it as a GIF. You can find
-some screen recording tools in the resources section of this guide.
+You should also **include a screenshot**. If the mod does something that can only be
+shown through a screen recording, take a screen recording and upload it as a GIF.
+You can find some screen recording tools in the resources section of this guide.
 
 Good job, I hope to see your mods soon! 👍
 
