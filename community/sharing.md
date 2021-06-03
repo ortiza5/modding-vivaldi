@@ -66,7 +66,7 @@ insert the following tags, in addition to any others that make sense:
 but please don't make new tags on your own!
 Only use tags that are suggested from the drop-down.
 
-![Tagging Posts Screenshot](../assets/images/tagging-posts.png)
+![Tagging Posts Screenshot](../assets/screenshots/tagging-posts.png)
 
 ## Describing your mods
 
@@ -87,4 +87,4 @@ To edit a post and update the code, click the three-dot menu. Alternatively, if 
 Git or cloud storage, just link to the file in the Git repository and don't worry about
 updating your post each time.
 
-![Editing Post Screenshot](../assets/images/editing-posts.png)
+![Editing Post Screenshot](../assets/screenshots/editing-posts.png)
