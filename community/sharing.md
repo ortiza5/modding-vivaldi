@@ -2,15 +2,15 @@
 Author(s): code3z (@code3 on the forum)
 
 Once you've created a mod that you're proud of, the next step is to share it.
-Sharing will be a big help to other people. You can also get feedback and help from
-the community. But it may also mean you have to respond to bugs in your code
-and help other people use your code.
+Sharing will be a big help to other people. You can also get feedback and help
+from the community. But it may also mean you have to respond to bugs in your
+code and help other people use your code.
 
 ## Managing and Sharing Mods using Git
 
-You can use hosted Git repos such as GitHub and Gitlab to upload,
-manage, share, and collaborate on mods. See the Managing Mods section of this
-guide for more information on Git.
+You can use hosted Git repos such as GitHub and Gitlab to upload, manage, share,
+and collaborate on mods. See the Managing Mods section of this guide for more
+information on Git.
 
 ## Code headers
 
@@ -72,19 +72,19 @@ Only use tags that are suggested from the drop-down.
 
 Now that you've added your code, titled your post, and tagged it,
 you need to write content! What you write is really up to you, but be sure to
-include what the mod does, how it will help people, and if it has any shortcomings
-or bugs or if it does not work with certain settings.
+include what the mod does, how it will help people, and if it has any
+shortcomings or bugs or if it does not work with certain settings.
 
-You should also **include a screenshot**. If the mod does something that can only be
-shown through a screen recording, take a screen recording and upload it as a GIF.
+You should also **include a screenshot**. If the mod does something that can only
+be shown through a screen recording, take a screen recording and upload it as a GIF.
 You can find some screen recording tools in the resources section of this guide.
 
 Good job, I hope to see your mods soon! 👍
 
 ## Editing Posts
 
-To edit a post and update the code, click the three-dot menu. Alternatively, if using
-Git or cloud storage, just link to the file in the Git repository and don't worry about
-updating your post each time.
+To edit a post and update the code, click the three-dot menu. Alternatively, if
+using Git or cloud storage, just link to the file in the Git repository and
+don't worry about updating your post each time.
 
 ![Editing Post Screenshot](../assets/screenshots/editing-posts.png)
