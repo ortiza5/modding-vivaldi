@@ -7,8 +7,6 @@ modifications. Loading devtools the usual way (keyboard shortcuts, inspect from
 menu, &c.) won’t necessarily give us access to the interface, however. In the
 following section we want to look at different ways how to achieve this.
 
----
-
 ## Loading DevTools
 
 In the past we were able to add a command line flag to the executable, enabling
@@ -85,8 +83,6 @@ to modify. Let’s change the font color of the active tab.
    by right‐clicking and selecting “Save as...”. Choose the location of the mod
    file to overwrite, or save the edit as backup.
 
----
-
 ### Reloading the user interface
 
 The standard way of performing edits is opening our mod file in a proper text
@@ -108,8 +104,6 @@ changes:
 
 All the actions load the `browser.html` file anew, which in turn loads our
 modification files.
-
----
 
 ### Console
 
