@@ -60,10 +60,10 @@ to modify. Let’s change the font color of the active tab.
 
 3. Click to select. The element is being highlighted in the “Elements” tab,
    which represents the page source of the user interface.
-4. A second section inside the tab contains the “Styles” tab either at the
-   side or beneath. In the source we can find the selectors, the style shows the
-   CSS acting on the selected element. Scroll down until you find the command
-   that changes the color of the active tab.
+4. A second section inside the tab contains the “Styles” tab either at the side
+   or beneath. In the source we can find the selectors, the style shows the CSS
+   acting on the selected element. Scroll down until you find the command that
+   changes the color of the active tab.
 
     ![Edit style][edit style screenshot]
 
