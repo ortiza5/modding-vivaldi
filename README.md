@@ -17,5 +17,5 @@ Vivaldi, make sure that you have all modifications disabled.**
 - Basics
   - [Installation](basics/installation.md)—*I’ve got some code, what to do
     with it?*
-  - [Inspecting the UI with DevTools](basics/inspect.md)
+  - [Inspecting the UI with DevTools](basics/devtools.md)
 - Advanced
