@@ -28,7 +28,7 @@ pages first.
 DevTools will always load in a new window; we are not able to attach them to the
 current window. Depending on your setup and preferences, you can create
 bookmarks for these pages with optional nicknames, dedicated menu entries for
-both the pages and the different developer tools commands (Element Inspector and
+both the pages and the different DevTools commands (Element Inspector and
 Console) and custom keyboard shortcuts. This assures DevTools for the UI are
 only ever a few clicks, or keystrokes, away.
 
@@ -131,7 +131,7 @@ described in [Installation][installation link].
 ---
 
 I hope these instructions have been helpful. For further questions post a reply
-to the [original topic][original topic link]; we have a healthy community
+to the [original topic][topic link]; we have a healthy community
 willing to help you out.
 
 [devtools image]: /assets/inspect/devtools.png
@@ -142,4 +142,4 @@ willing to help you out.
 [inspect image]: /assets/inspect/inspect.png
 
 [installation link]: installation.md
-[original topic link]: https://forum.vivaldi.net/topic/16684/inspecting-the-vivaldi-ui-with-devtools
+[topic link]: https://forum.vivaldi.net/topic/16684/inspecting-the-vivaldi-ui-with-devtools
