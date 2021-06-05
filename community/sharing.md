@@ -51,14 +51,15 @@ like this (see the header template above):
 ```
  * Version:           Vivaldi version 3.9.2289.3
 ```
+## Posting Mods to the Forum
 
-## Tagging Forum Posts
+### Tagging Forum Posts
 
 Tagging your mods helps others find them. Use the forum tagging feature to
 insert the following tags, in addition to any others that make sense:
 
- 1. [Mod]
- 2. [CSS] and/or [JS]
+ 1. [Modding]
+ 2. [CSS] and/or [JavaScript]
  3. [Area] (what area of the UI does it affect?)
 
 If the tag doesn't exist, the forum software will create it—

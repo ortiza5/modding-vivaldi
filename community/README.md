@@ -1,4 +1,4 @@
-# Using the Forum
+# Community
 
 The [modding forum](https://forum.vivaldi.net/category/52/modifications)
 will be extremely helpful to learning how to mod and getting mods from others.
