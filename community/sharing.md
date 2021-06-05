@@ -15,7 +15,7 @@ information on Git.
 ## Code headers
 
 Putting a comment at the top of your code helps people understand it,
-use it, and remember where it came from. Consider using this template:
+use it, and remember where it came from. Consider using a header like this:
 
 ```Javascript OR CSS
 /**
