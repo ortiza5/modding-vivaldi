@@ -21,7 +21,6 @@ use it, and remember where it came from. Consider using this template:
 /**
  * <TITLE>
  * https://forum.vivaldi.net/topic/<topic>
-	- - -   
  * Description:        <description>
  *      <If your description is long, put the second part here>
  * Filename:          <filename>
