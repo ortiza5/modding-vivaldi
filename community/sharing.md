@@ -3,7 +3,7 @@ Author(s): code3z (@code3 on the forum)
 
 Once you've created a mod that you're proud of, the next step is to share it.
 Sharing will be a big help to other people. You can also get feedback and help
-from the community. But it may also mean you have to respond to bugs in your
+from the community. But it will also mean you have to respond to bugs in your
 code and help other people use your code.
 
 ## Managing and Sharing Mods using Git
