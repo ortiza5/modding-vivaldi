@@ -84,7 +84,7 @@ Good job, I hope to see your mods soon! 👍
 ## Editing Posts
 
 To edit a post and update the code, click the three-dot menu. Alternatively, if
-using Git or cloud storage, just link to the file in the Git repository and
+using Git or cloud storage, just link to the file and
 don't worry about updating your post each time.
 
 ![Editing Post Screenshot](../assets/screenshots/editing-posts.png)
