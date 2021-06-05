@@ -11,7 +11,8 @@ When asking a question, keep a few simple things in mind:
  - Be polite and don't use ALL CAPS
  - If you are asking questions about a certain piece of code, share that code
  - Share any ways you thought might fix the problem even if they didn’t work
- - Don't add the "mod" tag to your post - save that for when you actually publish a mod
+ - Don't add the "mod" tag to your post - save that for when you actually
+ publish a mod
 
 ## Asking for Mods
 
