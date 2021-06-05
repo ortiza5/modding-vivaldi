@@ -134,12 +134,12 @@ I hope these instructions have been helpful. For further questions post a reply
 to the [original topic][topic link]; we have a healthy community willing to help
 you out.
 
-[devtools image]: /assets/basics/inspect/devtools.png
-[edit file image]: /assets/basics/inspect/edit-file.png
-[edit style image]: /assets/basics/inspect/edit-style.png
-[error image]: /assets/basics/inspect/error.png
-[hello world image]: /assets/basics/inspect/hello-world.png
-[inspect image]: /assets/inspect/inspect.png
+[devtools image]: /assets/basics/devtools/devtools.png
+[edit file image]: /assets/basics/devtools/edit-file.png
+[edit style image]: /assets/basics/devtools/edit-style.png
+[error image]: /assets/basics/devtools/error.png
+[hello world image]: /assets/basics/devtools/hello-world.png
+[inspect image]: /assets/basics/devtools/inspect.png
 
 [installation link]: installation.md
 [topic link]: https://forum.vivaldi.net/topic/16684/inspecting-the-vivaldi-ui-with-devtools
