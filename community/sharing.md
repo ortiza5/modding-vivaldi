@@ -62,7 +62,7 @@ insert the following tags, in addition to any others that make sense:
  2. [CSS] and/or [JS]
  3. [Area] (what area of the UI does it affect?)
 
-> If the tag doesn't exist the forum software will create it  -
+If the tag doesn't exist, the forum software will create it—
 but please don't make new tags on your own!
 Only use tags that are suggested from the drop-down.
 
