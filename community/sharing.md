@@ -40,7 +40,7 @@ know how up-to-date the mod is.
 Because both the forum and Git keep track of posting times, it's not necessary
 to include the last update time in the code header (but you can if you want).
 
-If you do want to version your mods, it would look like this:
+If you do want to version your mods, please include the Vivaldi version as well.
 ```
  * Version: 2.1 for Vivaldi 3.9.2289.3
 ```
