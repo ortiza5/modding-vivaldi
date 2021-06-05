@@ -10,7 +10,8 @@ achieve this.
 
 ## Loading DevTools
 
-Loading DevTools for the UI requires us to open specific pages first.
+Loading DevTools for the UI requires us to open one out of a set of specific
+pages first.
 
 - Open **`vivaldi://inspect/#apps/`** and click “inspect” beneath the first line
   (Vivaldi browser.html).
@@ -49,8 +50,8 @@ to modify. Let’s change the font color of the active tab.
 
    ![inspect image]
 
-3. Click to select. The element is being highlighted in the “Elements” tab,
-   which represents the page source of the user interface.
+3. Click to select the tab title. The element is being highlighted in the
+   “Elements” tab, which represents the page source of the user interface.
 4. A second section inside the tab contains the “Styles” tab either at the side
    or beneath. In the source we can find the selectors, the style shows the CSS
    acting on the selected element. Scroll down until you find the command that
@@ -63,7 +64,7 @@ to modify. Let’s change the font color of the active tab.
    This changes the font color, but only temporary (until reload).
 6. Should you have the experiment for using CSS modifications enabled in
    `vivaldi://experiments/` (see [Installation][installation link]), you can
-   both access and edit your modification files in the developer tools. Click on
+   both access and edit your modification files in the DevTools. Click on
    the “Sources” tab and in the sidebar expand `vivaldi-data` and then `css-mods`.
    Click on your mod file, the contents will be shown right next to it. Since we
    know how Vivaldi changes the color of the active tab, we can use the same
@@ -134,11 +135,11 @@ to the [original topic][original topic link]; we have a healthy community
 willing to help you out.
 
 [devtools image]: /assets/inspect/devtools.png
-[inspect image]: /assets/inspect/inspect.png
-[edit style image]: /assets/inspect/edit-style.png
 [edit file image]: /assets/inspect/edit-file.png
-[hello world image]: /assets/inspect/hello-world.png
+[edit style image]: /assets/inspect/edit-style.png
 [error image]: /assets/inspect/error.png
+[hello world image]: /assets/inspect/hello-world.png
+[inspect image]: /assets/inspect/inspect.png
 
 [installation link]: installation.md
 [original topic link]: https://forum.vivaldi.net/topic/16684/inspecting-the-vivaldi-ui-with-devtools
