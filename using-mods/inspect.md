@@ -115,7 +115,7 @@ described in [Installation][installation link].
    }, 300);
    ```
 
-3. Reload the user interface and load developer tools.
+3. Reload the user interface and load DevTools.
 4. Click the “Console” tab, our message should be visible.
 
    ![hello world image]
