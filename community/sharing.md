@@ -32,7 +32,7 @@ use it, and remember where it came from. Consider using this template:
 
 ### Versioning Your Mods
 
-Instead of tracking each edit to your mod as a separate version, it's
+Instead of versioning your mods separately, it’s
 easier and sometimes more helpful to include the latest version of Vivaldi that
 it was tested in. Along with the last update time, this will let you and others
 know how up-to-date the mod is.
