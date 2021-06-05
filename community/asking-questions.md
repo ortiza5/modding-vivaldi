@@ -13,7 +13,7 @@ When asking a question, keep a few simple things in mind:
  - Share any ways you thought you might fix the problem or things that didn't work
  - Don't add the "mod" tag to your post - save that for when you actually publish a mod
 
-## Asking For mods
+## Asking for Mods
 
 You can use the forum to ask someone to make a mod for you.
 But remember that it is a big favor: if they wanted this mod themselves,
