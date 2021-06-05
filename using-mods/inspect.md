@@ -61,7 +61,7 @@ to modify. Let’s change the font color of the active tab.
 
 5. Click on `var(--colorAccentFg)` (this is an example, the color could be
    different in your theme), press `backspace`, input `red` and press `enter`.
-   This changes the font color, but only temporary (until reload).
+   This changes the font color, but only temporarily (until reload).
 6. Should you have the experiment for using CSS modifications enabled in
    `vivaldi://experiments/` (see [Installation][installation link]), you can
    both access and edit your modification files in the DevTools. Click on
