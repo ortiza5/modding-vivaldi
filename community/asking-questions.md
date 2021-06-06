@@ -11,7 +11,7 @@ When asking a question, keep a few simple things in mind:
  - Be polite and don't use ALL CAPS
  - If you are asking questions about a certain piece of code, share that code
  - Share any ways you thought might fix the problem even if they didn’t work
- - Don't add the "mod" tag to your post - save that for when you actually
+ - Don't add the "mod" or "modding" tags to your post - save that for when you actually
  publish a mod
 
 ## Asking for Mods
@@ -23,4 +23,12 @@ realize that you may not get an answer at all (especially if what you're asking
 is hard to do).
 
 If you think that what you're asking should be implemented in Vivaldi directly,
-remember to make a feature request for it in the correct section of the forum.
+remember to make a feature request for it in the [correct section of the forum](https://forum.vivaldi.net/category/113/feature-requests).
+
+
+## Posting As A Question
+
+Please use the drop-down menu next to the "Submit" button to mark your post
+as a question, like this:
+
+![](../assets/forum-screenshots/post-as-question.png)

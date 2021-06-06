@@ -63,7 +63,7 @@ If the tag doesn't exist, the forum software will create it—
 but please don't make new tags on your own!
 Only use tags that are suggested from the drop-down.
 
-![Tagging Posts Screenshot](../assets/screenshots/tagging-posts.png)
+![Tagging Posts Screenshot](../assets/forum-screenshots/tagging-posts.png)
 
 ## Describing your mods
 
@@ -85,4 +85,4 @@ To edit a post and update the code, click the three-dot menu. Alternatively, if
 using Git or cloud storage, just link to the file and
 don't worry about updating your post each time.
 
-![Editing Post Screenshot](../assets/screenshots/editing-posts.png)
+![Editing Post Screenshot](../assets/forum-screenshots/editing-posts.png)
