@@ -1,6 +1,12 @@
 # Sharing your Mods
 Author(s): code3z (@code3 on the forum)
 
+The [modding forum](https://forum.vivaldi.net/category/52/modifications)
+will be extremely helpful to learning how to mod and getting mods from others.
+You will need a [vivaldi account](https://login.vivaldi.net) to post there. You might also want a GitHub and GitLab account as another way to share your mods.
+
+---
+
 Once you've created a mod that you're proud of, the next step is to share it.
 Sharing will be a big help to other people. You can also get feedback and help
 from the community. But it will also mean you have to respond to bugs in your
