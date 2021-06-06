@@ -8,37 +8,34 @@ code and help other people use your code.
 
 ## Managing and Sharing Mods using Git
 
-You can use hosted Git repos such as GitHub and Gitlab to upload, manage, share,
-and collaborate on mods. See the Managing Mods section of this guide for more
-information on Git.
+You can use hosted Git repositories such as GitHub and GitLab to upload, manage,
+share, and collaborate on mods. See the Managing Mods section of this guide
+for more information on Git.
 
 ## Code headers
 
 Putting a comment at the top of your code helps people understand it,
 use it, and remember where it came from. Consider using a header like this:
 
-```Javascript OR CSS
+```CSS
 /**
  * <TITLE>
  * https://forum.vivaldi.net/topic/<topic>
  * Description:        <description>
- *      <If your description is long, put the second part here>
- * Filename:          <filename>
- * Platform:          <Linux/Mac/Windows/All>
- * Version:           Vivaldi version <version>
- * Author(s):          <Here you can add your forum username, and username for github or any relevant app (also add any other contributors here)>
+ *                              <If your description is long, put the second part here>
+ * Filename:            <filename>
+ * Platform:             <Linux/Mac/Windows/All>
+ * Version:              Vivaldi version <version>
+ * Author(s):           <Here you can add your forum username, and username for github or any relevant app (also add any other contributors here)>
 **/
 ```
 
 ### Versioning Your Mods
 
-Instead of versioning your mods separately, it’s
-easier and sometimes more helpful to include the latest version of Vivaldi that
-it was tested in. Along with the last update time, this will let you and others
-know how up-to-date the mod is.
-
-Because both the forum and Git keep track of posting times, it's not necessary
-to include the last update time in the code header (but you can if you want).
+Instead of versioning your mods separately, it’s easier and sometimes more
+helpful to include the latest version of Vivaldi that it was tested in. Along
+with the last update time and version history (shown by Git or the forum),
+this will let you and others know how up-to-date the mod is.
 
 If you do want to version your mods, please include the Vivaldi version as well.
 ```
@@ -77,7 +74,7 @@ shortcomings or bugs or if it does not work with certain settings.
 
 You should also **include a screenshot**. If the mod does something that can
 only be shown through a screen recording, take a screen recording and upload
-it as a GIF. You can find some screen recording tools in the resources section 
+it as a GIF. You can find some screen recording tools in the resources section
 of this guide.
 
 Good job, I hope to see your mods soon! 👍
