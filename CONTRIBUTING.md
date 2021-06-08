@@ -249,3 +249,45 @@ Here, see the silhouette of the Octocat (or rather just the code for it)
 - prefer line comments to block comments if they span only one line,
 - put spaces at the start and end of block comments and at the start of line
   comments.
+
+```javascript
+/* Example code for JS style */
+
+// Actually, that above comment is /* */ only because it is usually longer
+
+(function () {
+  const TEXTS_TO_APPEAR = ['foo', 'bar', 'baz'];
+
+  const ID_OF_SOME_ELEMENT = 'my-mod-element';
+  const browser = document.getElementById('#browser');
+
+  // Adds the element this mod is all about
+  function addElement() {
+    // If the condition and/or call is too long, put them on separate lines
+    if (document.getElementById(ID_OF_SOME_ELEMENT)) return;
+
+    const elm = document.createElement('div');
+    elm.id = ID_OF_SOME_ELEMENT;
+
+    for (let text of TEXTS_TO_APPEAR) {
+      let textElm = document.createElement('div');
+      textElm.innerHTML = text;
+      elm.append(textElm);
+    }
+
+    browser.append(elm);
+  }
+
+  // If you ever need to create all the arguments when calling the function...
+  some.complicatedFunctionCall(
+    another.function(),
+    { foo: 'bar' },
+    {
+      foo: 10,
+      bar: 20,
+      baz: 30
+    });
+
+  addElement();
+})();
+```
