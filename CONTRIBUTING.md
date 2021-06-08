@@ -64,9 +64,8 @@ hyphen `-` and dot `.` in file names.
   contain exactly one level-one heading),
 - use _italics_ and **bold** as needed, but don’t overuse them (that is,
   highlight what is important, but do not mark every verb and object),
-- use capital letters only where appropriate,
-  - in headings, only the first word should start with a capital letter unless
-    there is a name (this isn’t the standard style, but helps legibility),
+- use capital letters only where appropriate (note that English requires almost
+  every word in headings to start with a capital letter),
 - you can use short forms (I’m, you’re), but try to avoid words like “gonna,”
   “wanna,”
 - prefer the words “and” and “or” to the characters “&” and “/”,
