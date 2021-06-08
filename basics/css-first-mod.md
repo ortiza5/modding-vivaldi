@@ -16,7 +16,7 @@ a certain limit.
 To start, open up devtools using your preferred method and open a panel. Using
 the element selector, select the panel.
 
-![Selecting the panel](../assets/devtools/select-panel.md)
+![Selecting the panel](../assets/devtools/select-panel-with-devtools.png)
 
 Notice the element tree:
 

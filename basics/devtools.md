@@ -45,6 +45,8 @@ to modify. Let’s change the font color of the active tab.
 
 1. Open DevTools and click the element picker button (mouse pointer) on top left.
    It turns blue.
+> Tip: You can also use the shortcut Crl+Shift+C to activate the element picker
+
 2. Hover the active tab in the Vivaldi window and move around until you see the
    span element with the `.title` class.
 
