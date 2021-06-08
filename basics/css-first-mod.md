@@ -10,7 +10,7 @@ We'll try to solve the problem that Vivaldi's panels cannot be condensed past a 
 
 To start, open up devtools using your preferred method and open a panel. Using the element selector, select the panel.
 
-!()[]
+![Selecting the panel](../assets/devtools/select-panel.md)
 
 Notice the element tree:
 

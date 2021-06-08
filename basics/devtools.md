@@ -77,6 +77,9 @@ to modify. Let’s change the font color of the active tab.
    by right‐clicking and selecting “Save as...”. Choose the location of the mod
    file to overwrite, or save the edit as backup.
 
+   > Tip: In many linux distros you can right-click the native window and force
+  it to be always on top. This can be helpful when using devtools.
+
 ### Reloading the user interface
 
 The standard way of performing edits is opening our mod file in a proper text
