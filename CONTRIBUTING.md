@@ -93,6 +93,9 @@ of the corresponding “project,” structured according to their use.
 
 ## Code style / file format
 
+Please try to follow the general rules written here as well as those file
+type-specific (written as example code snippets).
+
 - Avoid trailing whitespace,
 - do not use multiple empty lines,
 - end every line with a line feed character (every means even the last one, some
@@ -198,6 +201,39 @@ Here, see the silhouette of the Octocat (or rather just the code for it)
   into sections without comments, separate only the sections, not blocks within
   a section),
 - put spaces at the start and end of comments.
+
+```css
+/* This code shows the recommended CSS style */
+
+/* Active tab title in accent color */
+#browser.color-behind-tabs-on.theme-dark.acc-light .tab.active,
+#browser.color-behind-tabs-on.theme-light.acc-dark .tab.active {
+  color: var(--colorAccentBg);
+}
+
+/* Now the same, but condensed into one selector */
+#browser.color-behind-tabs-on:is(.theme-dark.acc-light, .theme-light.acc-dark) .tab.active {
+  color: var(--colorAccentBg);
+}
+
+/* One of my mods that shows possible handling of long values.
+ * It puts a pattern of crosses as the speed dial background.
+ * (I don't require exactly this style for multi-line comments, just choose one
+ * that looks nice enough to you and stay consistent across the file.) */
+.startpage {
+  --sdPatternBg: var(--colorBgDarker);
+  /* Pattern: https://projects.verou.me/css3patterns/#cross */
+  background:
+    radial-gradient(circle, transparent 20%, var(--sdPatternBg) 20%,
+      var(--sdPatternBg) 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, var(--sdPatternBg) 20%,
+      var(--sdPatternBg) 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(var(--colorBgLighter) 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, var(--colorBgLighter) 8px, transparent 8px) -4px 0 !important;
+  background-color: var(--sdPatternBg) !important;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px !important;
+}
+```
 
 ### JavaScript
 
