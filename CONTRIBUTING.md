@@ -152,8 +152,10 @@ So, to show you some formatting:
 - another item with `inline code`
 
   ```plaintext
-  and a code block
-  ```
+  and a code block (please ignore the backslash on the next line, it is there
+  due to GitHub considering the line the end of the whole example code block
+  otherwise)
+  \```
 
 [Vivaldi]:https://vivaldi.com/
 [vforum]:https://forum.vivaldi.net/
