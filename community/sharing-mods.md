@@ -47,17 +47,6 @@ will let you and others know how up-to-date the mod is.
 
 If you do want to version your mods, please include the Vivaldi version as well.
 
-```
- * Version:     2.1 for Vivaldi 3.9.2289.3
-```
-
-If you want to keep it simple and use the last Vivaldi version, it would look
-like this (see the header template above):
-
-```
- * Version:     Vivaldi version 3.9.2289.3
-```
-
 ## Posting Mods to the Forum
 
 ### Tagging Forum Posts
