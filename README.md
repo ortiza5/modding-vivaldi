@@ -18,7 +18,7 @@ Vivaldi, make sure that you have all modifications disabled.**
   - [Installation](using-mods/installation.md)—*I’ve got some code, what to do
     with it?*
 - Advanced
-
 - Community
- - [Asking Questions](community/asking-questions.md)-*I've got a question, where should I ask it?*
- - [Sharing Mods](community/sharing.md)-*I made some code, where and how should I share it?*
+  - [Asking Questions](community/asking-questions.md)—*Where can I get help?*
+  - [Sharing Mods](community/sharing.md)—please do not keep your mods for
+    yourself!
