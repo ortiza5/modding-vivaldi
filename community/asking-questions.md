@@ -32,4 +32,4 @@ the forum](https://forum.vivaldi.net/category/113/feature-requests).
 Please use the drop-down menu next to the “Submit” button to mark your post
 as a question, like this:
 
-![](../assets/forum-screenshots/post-as-question.png)
+![](../assets/community/asking-questions/post-as-question.png)
