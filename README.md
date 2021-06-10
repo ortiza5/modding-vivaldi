@@ -20,5 +20,5 @@ Vivaldi, make sure that you have all modifications disabled.**
 - Advanced
 - Community
   - [Asking Questions](community/asking-questions.md)—*Where can I get help?*
-  - [Sharing Mods](community/sharing.md)—please do not keep your mods for
+  - [Sharing Mods](community/sharing-mods.md)—please do not keep your mods for
     yourself!
