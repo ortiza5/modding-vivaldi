@@ -106,35 +106,6 @@ type-specific (written as example code snippets).
 
 ### Markdown
 
-- Try to avoid HTML,
-- do not interrupt lists; instead, indent continuation of any items,
-- use ordered lists only when the order or count matters,
-- use three backticks for code blocks, always specify the language (like shown
-  here),
-
-  ```css
-  body {
-    background: white;
-  }
-  ```
-
-- separate lists, block quotes, code blocks, headings, separators, images
-  (unless they are inline) and similar from other content with a blank line on
-  each side,
-- do not rely on implicit continuation of block quotes and similar,
-- use the hash `#` character for headings,
-- use the underscore `_` character for _italics_; double asterisk `**` for
-  **bold**,
-- use three ASCII hyphens `---` for separators,
-- use the ASCII hyphen for unordered lists,
-- add a space after `#` in headings and each `>` in block quotes,
-- specify the address of reference links at the end of the section where you use
-  them; if you use them across several sections, consider them to be used in the
-  section one level higher,
-- specify links like “here” inline or using a reasonable identifier; links like
-  “CSS” (with the address going to a specification or Wikipedia entry, not a
-  guide) should use the reference style.
-
 ```markdown
 # Example MarkDown
 
@@ -188,22 +159,6 @@ Here, see the silhouette of the Octocat (or rather just the code for it)
 
 ### CSS
 
-- Make a separate line for every selector (so that commas are at the end of
-  lines) and rule,
-- put opening braces at the end of the line, separated from the selector with a
-  space,
-- put closing braces on separate lines,
-- however long a selector is, don’t break it into multiple lines,
-- the same for `url()` and similar, but not for gradients and such,
-- use semicolons even after last rule in a block,
-- indent continuations of long values relative to the value (not the property
-  name),
-  - it is preferable to start long values on a new line,
-- separate blocks with empty lines (in case you ever need to group some blocks
-  into sections without comments, separate only the sections, not blocks within
-  a section),
-- put spaces at the start and end of comments.
-
 ```css
 /* This code shows the recommended CSS style */
 
@@ -238,19 +193,6 @@ Here, see the silhouette of the Octocat (or rather just the code for it)
 ```
 
 ### JavaScript
-
-- **Never** use `var`; prefer `const` where possible,
-- use camelCase for variable names; start them with a lowercase letter (classes
-  start with an uppercase letter),
-- use `SHOUTING_SNAKE_CASE` for constants defined in code (as opposed to
-  constants generated during runtime),
-- use semicolons even where they aren’t necessary,
-- put all types of opening brackets at the end of the line,
-- put closing brackets and braces on a new line,
-- keep closing parentheses at the same line as the statement they close,
-- prefer line comments to block comments if they span only one line,
-- put spaces at the start and end of block comments and at the start of line
-  comments.
 
 ```javascript
 /* Example code for JS style */
