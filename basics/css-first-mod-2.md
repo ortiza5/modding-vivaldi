@@ -2,32 +2,18 @@
 
 Here is the solution to the CSS mod:
 ```CSS
+div#panels-container .panel-collapse-guard {
+    max-width: 190px !important;
+    min-width: 190px !important;
+}
 
+div#panels-container {
+    width: 124px !important;
+}
 ```
 
-Did you figure it all out? You likely figured out this part:
+But, you may notice that
 
-```CSS
-
-```
-If you did not, you may want to review CSS.
-
-
-Maybe you also figured out this part, which allows the panel to be closed correctly:
-
-```CSS
-
-```
-If you observe the changes of the panel in devtools, you can see that the
-`icons` class is added to `div#panels-container` when the panel is closed (and
-showing only the icons).
-
-But let me explain this part:
-
-``CSS
-
-
-```
 ## Allowing for multiple setups
 
 When modding it's important to think of different setups, such as having the
