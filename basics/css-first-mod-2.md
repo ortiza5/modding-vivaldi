@@ -30,7 +30,7 @@ But let me explain this part:
 ```
 ## Allowing for multiple setups
 
-When modding it's important to think of different setups, such as having the 
+When modding it's important to think of different setups, such as having the
 panel floating or having it inline (you can change this with a Ctrl-click on
 the panel button in the status bar).
 
@@ -38,3 +38,19 @@ the panel button in the status bar).
 
 We can make the mod more user-friendly by allowing the user to disable the mod
 when the panel is not at its smallest position, using some CSS tricks.
+
+```css
+
+:root {
+    --panel-condensed: 190px
+
+}
+div#panels-container[style="width: 260px;"] .panel-collapse-guard {
+    max-width: var(--panel-condensed) !important;
+    min-width: var(--panel-condensed) !important;
+}
+
+div#panels-container[style="width: 260px;"] {
+    width: calc( var(--panel-condensed) + 34px) !important;
+}
+```
