@@ -45,6 +45,8 @@ to modify. Let’s change the font color of the active tab.
 
 1. Open DevTools and click the element picker button (mouse pointer) on top left.
    It turns blue.
+> Tip: You can also use the shortcut Crl+Shift+C to activate the element picker
+
 2. Hover the active tab in the Vivaldi window and move around until you see the
    span element with the `.title` class.
 
@@ -76,6 +78,9 @@ to modify. Let’s change the font color of the active tab.
 7. This is a temporary modification too. However, we can make our edit permanent
    by right‐clicking and selecting “Save as...”. Choose the location of the mod
    file to overwrite, or save the edit as backup.
+
+   > Tip: In many linux distros you can right-click the native window and force
+  it to be always on top. This can be helpful when using devtools.
 
 ### Reloading the user interface
 
