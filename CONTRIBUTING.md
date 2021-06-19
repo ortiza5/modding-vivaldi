@@ -1,6 +1,6 @@
 # Contributing
 
-## Ways to contribute
+## Ways to Contribute
 
 You can:
 
@@ -9,7 +9,7 @@ You can:
 - review and discuss pull requests,
 - suggest changes regarding this project.
 
-### Writing / editing guides
+### Writing / Editing Guides
 
 Fork this repository, create and checkout a new branch (this is important, since
 I intend to use squash merges, which would cause your `master` to be different
@@ -34,7 +34,7 @@ to these guidelines.
 
 If you do not know what to write, check out the issues.
 
-### Reviewing pull requests
+### Reviewing Pull Requests
 
 Do not be shy to suggest changes and point out mistakes. The goal is to have
 good guides (although it is not a good idea to block a pull request for more
@@ -42,20 +42,20 @@ than a week with nitpicks).
 
 You can also discuss the reviews by others.
 
-### Suggesting changes
+### Suggesting Changes
 
 Create an issue and describe the suggestion. You can also create a pull request
 if you have a more concrete idea—in that case it will be discussed there.
 
 ---
 
-## File names
+## File Names
 
 Unless you have a specific reason to do otherwise, use the ASCII hyphen `-` to
 separate words and use only the characters a—z (lowercase), 0—9, the ASCII
 hyphen `-` and dot `.` in file names.
 
-## Writing style
+## Writing Style
 
 - Write in sentences (you can choose how to write lists, but stay consistent in
   the whole file),
@@ -91,7 +91,7 @@ of the corresponding “project,” structured according to their use.
   environment or something; you should never use images to show code), make sure
   it follows the code style specifications.
 
-## Code style / file format
+## Code Style / File Format
 
 Please try to follow the general rules written here as well as those file
 type-specific (written as example code snippets).
@@ -131,7 +131,7 @@ So, to show you some formatting:
 [Vivaldi]:https://vivaldi.com/
 [vforum]:https://forum.vivaldi.net/
 
-### More formatting
+### More Formatting
 
 1. now a numbered list—the order of the items matters here (though it doesn’t
    seem to)
