@@ -7,9 +7,6 @@ make a new mod using CSS.
 Note that this tutorial assumes you have decent knowledge of CSS, please see
 "Resources" if you need to learn CSS.
 
-> For the first part of this guide, turn the "floating panel" setting off  
-if you turned it on.
-
 We'll try to solve the problem that Vivaldi's panels cannot be condensed past
 a certain limit.
 
