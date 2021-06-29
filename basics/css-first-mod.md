@@ -37,7 +37,7 @@ Its parent element, `div.panel-collapse-guard`, does have `min-width` and
 `100px`) just makes the panel look squashed, it doesn't decrease the space that
 the panel takes up.
 
-![Squashed Panel Image](../assets/css-tutorial/squashed-panel.png)
+![Squashed Panel Image](../assets/CSS-tutorial/squashed-panel.png)
 
 You should be able to press `Ctrl + Z` to undo the changes. The next element up
 that has a defined width is `div#panels`, but that is also set to `100%`. The
@@ -45,10 +45,11 @@ next element up, and seemingly the only panel-related element left, is
 `div#panels-container`. Adjusting it does change the width of the panel and
 makes the panel take up less space, but it hides some panel content.
 
-![Covered Panel Image](../assets/css-tutorial/covered-panel.png)
+![Covered Panel Image](../assets/CSS-tutorial/covered-panel.png)
 
 Correctly forcing a panel width will require changing both values: the width
-of the panel container and the width of the panel itself. Try it yourself, and view the solution below.
+of the panel container and the width of the panel itself. Try it yourself, and
+view the solution below.
 
 > Tip: Changing element.style will make your changes harder to export. Instead,
 use the "+" button in the styles tab to create a custom selector and style.
@@ -77,10 +78,10 @@ div#panels-container {
 ```
 
 But, you may notice that the same value is repeated twice, and the second value
-is just the first value + 34px (the width of `#panels-container #switch`, where
-the panel buttons are). So we can use [CSS variables](#todo-mdn) like this:
+is just the first value + 34px (the width of `#panels-container #switch`). So
+we can use [CSS variables](#todo-mdn) like this:
 
-```css
+```CSS
 
 :root {
     --panel-condensed: 190px
@@ -107,14 +108,16 @@ panel, closed inline panel, and right and left side panels.
 ## Making the mod user-friendly
 
 We can make the mod more user-friendly by allowing the user to disable the mod
-when the panel is not at its smallest position, using some CSS tricks.
+when the panel is not at its smallest position, using some CSS tricks. In a
+normal project, you might add another class when the panel is at the minimum
+width, but in this case we use and attribute-based selector.
 
 Essentially, this allows the user to drag the panel to the smallest width
 possible, and it will snap to an even smaller width. Remember, right-clicking
-a panel button gives an option to make a certain panel a seperate width from
+a panel button gives an option to make a certain panel a separate width from
 the others.
 
-```css
+```CSS
 
 :root {
     --panel-condensed: 190px
