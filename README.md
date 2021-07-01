@@ -14,6 +14,8 @@ Vivaldi, make sure that you have all modifications disabled.**
 
 ## Contents
 
-- using mods
-  - [installation](using-mods/installation.md)—*I’ve got some code, what to do
+- Basics
+  - [Installation](basics/installation.md)—*I’ve got some code, what to do
     with it?*
+  - [Inspecting the UI with DevTools](basics/devtools.md)
+- Advanced
