@@ -1,4 +1,4 @@
-# Modding Vivaldi ![Modding Vivaldi logo](assets/logo/favicon/favicon-32x32.png)
+# Modding Vivaldi
 
 This repository will eventually contain some guides to help you with modding the
 Vivaldi browser.
