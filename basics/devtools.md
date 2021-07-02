@@ -77,7 +77,7 @@ to modify. Let’s change the font color of the active tab.
    by right‐clicking and selecting “Save as...”. Choose the location of the mod
    file to overwrite, or save the edit as backup.
 
-### Reloading the user interface
+### Reloading the User Interface
 
 The standard way of performing edits is opening our mod file in a proper text
 editor, editing, saving and reloading the UI. Here a few options to load the
