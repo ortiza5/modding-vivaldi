@@ -33,8 +33,7 @@ Clicking on each of them, and using the devtools "filter" option to search for
 `width`, shows that `div.panel` has a `width` of `100%` (controlled by parent).
 
 Its parent element, `div.panel-collapse-guard`, does have `min-width` and
-`max-width` defined. However, lowering these values (to, something like
-`100px`) just makes the panel look squashed, it doesn't decrease the space that
+`max-width` defined. However, lowering these values  just makes the panel look squashed, it doesn't decrease the space that
 the panel takes up.
 
 ![Squashed Panel Image](../assets/CSS-tutorial/squashed-panel.png)
@@ -42,16 +41,14 @@ the panel takes up.
 You should be able to press `Ctrl + Z` to undo the changes. The next element up
 that has a defined width is `div#panels`, but that is also set to `100%`. The
 next element up, and seemingly the only panel-related element left, is
-`div#panels-container`. Adjusting it does change the width of the panel and
+`div#panels-container`. Adjusting it changes the width of the panel and
 makes the panel take up less space, but it hides some panel content.
 
 ![Covered Panel Image](../assets/CSS-tutorial/covered-panel.png)
 
-Correctly forcing a panel width will require changing both values: the width
-of the panel container and the width of the panel itself. Try it yourself, and
-view the solution below.
+Now that we've explored the UI, try changing the panel values on your own.
 
-> Tip: Changing element.style will make your changes harder to export. Instead,
+> Changing element.style will make your changes harder to export. Instead,
 use the "+" button in the styles tab to create a custom selector and style.
 Here is an example of what not to do:
   -
@@ -63,7 +60,9 @@ need to do. Sometimes you might need to inspect an element that autohides, or
 use CSS selectors on an element that has no class or ID. You can see the Tips &
 Tricks section of the guide to learn how to do things like that.
 
+*Please don't look below until you've tried to complete the mod yourself!*
 
+---
 
 Here is the solution to the CSS mod:
 ```CSS
