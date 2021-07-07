@@ -77,8 +77,8 @@ div#panels-container {
 ```
 
 But, you may notice that the same value is repeated twice, and the second value
-is just the first value + 34px (the width of `#panels-container #switch`). So
-we can use [CSS variables][css vars] like this, and make the mod more easily adjustable:
+is just the first value + 34px (the width of `#panels-container #switch`). So we
+can use [CSS variables][css vars] like this, and make the mod more easily adjustable:
 
 ```CSS
 
@@ -131,7 +131,9 @@ div#panels-container[style="width: 260px;"] {
     width: calc( var(--panel-condensed) + 34px) !important;
 }
 ```
-Using an [attribute selector][attribute selector] allows us to select the panel at its smallest width even though there is no new class applied when it reaches the smallest width.
+Using an [attribute selector][attribute selector] allows us to select the panel
+at its smallest width even though there is no new class applied when it reaches
+the smallest width.
 
 [css vars]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 [attribute selector]: https://www.w3schools.com/css/css_attribute_selectors.asp
