@@ -33,16 +33,16 @@ Clicking on each of them, and using the devtools "filter" option to search for
 `width`, shows that `div.panel` has a `width` of `100%` (controlled by parent).
 
 Its parent element, `div.panel-collapse-guard`, does have `min-width` and
-`max-width` defined. However, lowering these values  just makes the panel look squashed, it doesn't decrease the space that
-the panel takes up.
+`max-width` defined. However, lowering these values  just makes the panel look
+squashed, it doesn't decrease the space that the panel takes up.
 
 ![Squashed Panel Image](../assets/CSS-tutorial/squashed-panel.png)
 
 You should be able to press `Ctrl + Z` to undo the changes. The next element up
 that has a defined width is `div#panels`, but that is also set to `100%`. The
 next element up, and seemingly the only panel-related element left, is
-`div#panels-container`. Adjusting it changes the width of the panel and
-makes the panel take up less space, but it hides some panel content.
+`div#panels-container`. Adjusting it changes the width of the panel and makes
+the panel take up less space, but it hides some panel content.
 
 ![Covered Panel Image](../assets/CSS-tutorial/covered-panel.png)
 
