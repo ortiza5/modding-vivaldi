@@ -25,12 +25,16 @@ pages first.
   visit **`http://localhost:9222/`**. Select the line containing `browser.html`
   to inspect the user interface.
 
-DevTools will always load in a new window; we are not able to attach them to the
-current window. Depending on your setup and preferences, you can create
-bookmarks for these pages with optional nicknames, dedicated menu entries for
-both the pages and the different DevTools commands (Element Inspector and
-Console) and custom keyboard shortcuts. This assures DevTools for the UI are
-only ever a few clicks, or keystrokes, away.
+DevTools will always load in a new window; we are not able to attach them to the current window. Depending on our setup and preferences, we can create bookmarks for these pages with optional nicknames, dedicated menu entries for both the pages and the different DevTools commands (Element Inspector and Console) and custom keyboard shortcuts. This assures DevTools for the UI are only ever a few clicks, or keystrokes, away. Alternatively we can create a command chain in `vivaldi://settings/qc`, which automates the process:
+
+Command chain name: **Inspect UI**
+
+1. Open Link in New Tab
+    Parameter: `vivaldi://experiments`
+2. Delay
+    Parameter: `50`
+3. Developer Tools
+4. Close Tab
 
 ## Using DevTools
 
