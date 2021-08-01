@@ -15,22 +15,33 @@ pages first.
 
 - Open **`vivaldi://inspect/#apps/`** and click “inspect” beneath the first line
   (Vivaldi browser.html).
-- Open **`vivaldi://settings/`** (in a **tab**), or **`vivaldi://experiments/`**,
-  or **`vivaldi://mail/`** and load DevTools with a keyboard shortcut, Quick
-  Commands, or menu entry (e.g. `Main Menu → Tools → Developer Tools`).
-- Enable “Show Introduction” for private windows in `vivaldi://settings/privacy/`.
-  Open a **private window**, load DevTools.
+- Open **`vivaldi://settings/`** (in a **tab**), or 
+  **`vivaldi://experiments/`**, or **`vivaldi://mail/`** and load DevTools with 
+  a keyboard shortcut, Quick Commands, or menu entry (e.g. `Main Menu → Tools → 
+  Developer Tools`).
+- Enable “Show Introduction” for private windows in 
+  `vivaldi://settings/privacy/`. Open a **private window**, load DevTools.
 - Start Vivaldi with the command line flag **`--remote-debugging-port=9222`**.
   Open another browser (the stable/snapshot version of Vivaldi for instance) and
   visit **`http://localhost:9222/`**. Select the line containing `browser.html`
   to inspect the user interface.
 
-DevTools will always load in a new window; we are not able to attach them to the
-current window. Depending on your setup and preferences, you can create
-bookmarks for these pages with optional nicknames, dedicated menu entries for
-both the pages and the different DevTools commands (Element Inspector and
-Console) and custom keyboard shortcuts. This assures DevTools for the UI are
-only ever a few clicks, or keystrokes, away.
+DevTools will always load in a new window; we are not able to attach them to the 
+current window. Depending on our setup and preferences, we can create bookmarks 
+for these pages with optional nicknames, dedicated menu entries for both the 
+pages and the different DevTools commands (Element Inspector and Console) and 
+custom keyboard shortcuts. This assures DevTools for the UI are only ever a few 
+clicks, or keystrokes, away. Alternatively we can create a command chain in 
+`vivaldi://settings/qc`, which automates the process:
+
+Command chain name: **Inspect UI**
+
+1. Open Link in New Tab
+    Parameter: `vivaldi://experiments`
+2. Delay
+    Parameter: `50`
+3. Developer Tools
+4. Close Tab
 
 ## Using DevTools
 
@@ -43,8 +54,8 @@ A short introduction in 2 examples.
 The element inspector allows us to look up selectors for the elements we intend
 to modify. Let’s change the font color of the active tab.
 
-1. Open DevTools and click the element picker button (mouse pointer) on top left.
-   It turns blue. Alternatively, you can use the shortcut `Ctrl+Shift+C`.
+1. Open DevTools and click the element picker button (mouse pointer) on top 
+   left, or use the keyboard shortcut `Ctrl+Shift+C`. The button turns blue.
 2. Hover the active tab in the Vivaldi window and move around until you see the
    span element with the `.title` class.
 
@@ -65,11 +76,11 @@ to modify. Let’s change the font color of the active tab.
 6. Should you have the experiment for using CSS modifications enabled in
    `vivaldi://experiments/` (see [Installation][installation link]), you can
    both access and edit your modification files in the DevTools. Click on
-   the “Sources” tab and in the sidebar expand `vivaldi-data` and then `css-mods`.
-   Click on your mod file, the contents will be shown right next to it. Since we
-   know how Vivaldi changes the color of the active tab, we can use the same
-   code in our file to overwrite Vivaldi’s instructions. Change the color to
-   `green` this time and notice how the change is immediately visible.
+   the “Sources” tab and in the sidebar expand `vivaldi-data` and then 
+   `css-mods`. Click on your mod file, the contents will be shown right next to 
+   it. Since we know how Vivaldi changes the color of the active tab, we can use
+   the same code in our file to overwrite Vivaldi’s instructions. Change the 
+   color to `green` this time and notice how the change is immediately visible.
 
    ![edit file image]
 
