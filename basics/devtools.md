@@ -16,12 +16,11 @@ pages first.
 - Open **`vivaldi://inspect/#apps/`** and click “inspect” beneath the first line
   (Vivaldi browser.html).
 - Open **`vivaldi://settings/`** (in a **tab**), or 
-  **`vivaldi://experiments/`**,
-  or **`vivaldi://mail/`** and load DevTools with a keyboard shortcut, Quick
-  Commands, or menu entry (e.g. `Main Menu → Tools → Developer Tools`).
+  **`vivaldi://experiments/`**, or **`vivaldi://mail/`** and load DevTools with 
+  a keyboard shortcut, Quick Commands, or menu entry (e.g. `Main Menu → Tools → 
+  Developer Tools`).
 - Enable “Show Introduction” for private windows in 
-  `vivaldi://settings/privacy/`.
-  Open a **private window**, load DevTools.
+  `vivaldi://settings/privacy/`. Open a **private window**, load DevTools.
 - Start Vivaldi with the command line flag **`--remote-debugging-port=9222`**.
   Open another browser (the stable/snapshot version of Vivaldi for instance) and
   visit **`http://localhost:9222/`**. Select the line containing `browser.html`
