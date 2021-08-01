@@ -54,8 +54,8 @@ A short introduction in 2 examples.
 The element inspector allows us to look up selectors for the elements we intend
 to modify. Let’s change the font color of the active tab.
 
-1. Open DevTools and click the element picker button (mouse pointer) on top left.
-   It turns blue. Alternatively, you can use the shortcut `Ctrl+Shift+C`.
+1. Open DevTools and click the element picker button (mouse pointer) on top 
+   left, or use the keyboard shortcut `Ctrl+Shift+C`. The button turns blue.
 2. Hover the active tab in the Vivaldi window and move around until you see the
    span element with the `.title` class.
 
