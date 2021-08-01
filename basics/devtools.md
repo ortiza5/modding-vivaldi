@@ -54,8 +54,8 @@ A short introduction in 2 examples.
 The element inspector allows us to look up selectors for the elements we intend
 to modify. Let’s change the font color of the active tab.
 
-1. Open DevTools and click the element picker button (mouse pointer) on top 
-   left. It turns blue.
+1. Open DevTools and click the element picker button (mouse pointer) on top left.
+   It turns blue. Alternatively, you can use the shortcut `Ctrl+Shift+C`.
 2. Hover the active tab in the Vivaldi window and move around until you see the
    span element with the `.title` class.
 
@@ -88,7 +88,7 @@ to modify. Let’s change the font color of the active tab.
    by right‐clicking and selecting “Save as...”. Choose the location of the mod
    file to overwrite, or save the edit as backup.
 
-### Reloading the user interface
+### Reloading the User Interface
 
 The standard way of performing edits is opening our mod file in a proper text
 editor, editing, saving and reloading the UI. Here a few options to load the

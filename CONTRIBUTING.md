@@ -1,6 +1,6 @@
 # Contributing
 
-## Ways to contribute
+## Ways to Contribute
 
 You can:
 
@@ -9,7 +9,7 @@ You can:
 - review and discuss pull requests,
 - suggest changes regarding this project.
 
-### Writing / editing guides
+### Writing / Editing Guides
 
 Fork this repository, create and checkout a new branch (this is important, since
 I intend to use squash merges, which would cause your `master` to be different
@@ -34,7 +34,7 @@ to these guidelines.
 
 If you do not know what to write, check out the issues.
 
-### Reviewing pull requests
+### Reviewing Pull Requests
 
 Do not be shy to suggest changes and point out mistakes. The goal is to have
 good guides (although it is not a good idea to block a pull request for more
@@ -42,20 +42,20 @@ than a week with nitpicks).
 
 You can also discuss the reviews by others.
 
-### Suggesting changes
+### Suggesting Changes
 
 Create an issue and describe the suggestion. You can also create a pull request
 if you have a more concrete idea—in that case it will be discussed there.
 
 ---
 
-## File names
+## File Names
 
 Unless you have a specific reason to do otherwise, use the ASCII hyphen `-` to
 separate words and use only the characters a—z (lowercase), 0—9, the ASCII
 hyphen `-` and dot `.` in file names.
 
-## Writing style
+## Writing Style
 
 - Write in sentences (you can choose how to write lists, but stay consistent in
   the whole file),
@@ -64,9 +64,8 @@ hyphen `-` and dot `.` in file names.
   contain exactly one level-one heading),
 - use _italics_ and **bold** as needed, but don’t overuse them (that is,
   highlight what is important, but do not mark every verb and object),
-- use capital letters only where appropriate,
-  - in headings, only the first word should start with a capital letter unless
-    there is a name (this isn’t the standard style, but helps legibility),
+- use capital letters only where appropriate (note that English requires almost
+  every word in headings to start with a capital letter),
 - you can use short forms (I’m, you’re), but try to avoid words like “gonna,”
   “wanna,”
 - prefer the words “and” and “or” to the characters “&” and “/”,
@@ -92,7 +91,10 @@ of the corresponding “project,” structured according to their use.
   environment or something; you should never use images to show code), make sure
   it follows the code style specifications.
 
-## Code style / file format
+## Code Style / File Format
+
+Please try to follow the general rules written here as well as those file
+type-specific (written as example code snippets).
 
 - Avoid trailing whitespace,
 - do not use multiple empty lines,
@@ -104,64 +106,132 @@ of the corresponding “project,” structured according to their use.
 
 ### Markdown
 
-- Try to avoid HTML,
-- do not interrupt lists; instead, indent continuation of any items,
-- use ordered lists only when the order or count matters,
-- use three backticks for code blocks, always specify the language (like shown
-  here),
+```markdown
+# Example MarkDown
 
-  ```css
-  body {
-    background: white;
-  }
-  ```
+This is a _MarkDown_ text to demonstrate the style required in this repository.
 
-- separate lists, block quotes, code blocks, headings, separators, images
-  (unless they are inline) and similar from other content with a blank line on
-  each side,
-- do not rely on implicit continuation of block quotes and similar,
-- use the hash `#` character for headings,
-- use the underscore `_` character for _italics_; double asterisk `**` for
-  **bold**,
-- use three ASCII hyphens `---` for separators,
-- use the ASCII hyphen for unordered lists,
-- add a space after `#` in headings and each `>` in block quotes,
-- specify the address of reference links at the end of the section where you use
-  them; if you use them across several sections, consider them to be used in the
-  section one level higher,
-- specify links like “here” inline or using a reasonable identifier; links like
-  “CSS” (with the address going to a specification or Wikipedia entry, not a
-  guide) should use the reference style.
+## Formatting
+
+So, to show you some formatting:
+
+- **Bold** and _italics_,
+- link to [there](https://github.com/tiosgz/modding-vivaldi), [Vivaldi] and
+  [Vivaldi Forum][vforum] (you can choose any of the possibilities),
+
+  another link: <http://example.com/>, in a new paragraph in the same list item,
+- another item with `inline code`
+
+  ```plaintext
+  and a code block (please ignore the backslash on the next line, it is there
+  due to GitHub considering the line the end of the whole example code block
+  otherwise)
+  \```
+
+[Vivaldi]:https://vivaldi.com/
+[vforum]:https://forum.vivaldi.net/
+
+### More Formatting
+
+1. now a numbered list—the order of the items matters here (though it doesn’t
+   seem to)
+2. notice that you can write in sentences or a single sentence over the whole
+   list or like this—or however you wish, just stay consistent in the whole file
+
+   > a block quote, part of the 2nd item
+
+> Another block quote, not in the list.
+>
+> When you want to continue it, add the marks in front of every line.
+>
+> ---
+>
+> Yes, that thing above is a separator.
+>
+> > And a nested quote.
+
+## Image
+
+Here, see the silhouette of the Octocat (or rather just the code for it)
+
+![Octocat](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+```
 
 ### CSS
 
-- Make a separate line for every selector (so that commas are at the end of
-  lines) and rule,
-- put opening braces at the end of the line, separated from the selector with a
-  space,
-- put closing braces on separate lines,
-- however long a selector is, don’t break it into multiple lines,
-- the same for `url()` and similar, but not for gradients and such,
-- use semicolons even after last rule in a block,
-- indent continuations of long values relative to the value (not the property
-  name),
-  - it is preferable to start long values on a new line,
-- separate blocks with empty lines (in case you ever need to group some blocks
-  into sections without comments, separate only the sections, not blocks within
-  a section),
-- put spaces at the start and end of comments.
+```css
+/* This code shows the recommended CSS style */
+
+/* Active tab title in accent color */
+#browser.color-behind-tabs-on.theme-dark.acc-light .tab.active,
+#browser.color-behind-tabs-on.theme-light.acc-dark .tab.active {
+  color: var(--colorAccentBg);
+}
+
+/* Now the same, but condensed into one selector */
+#browser.color-behind-tabs-on:is(.theme-dark.acc-light, .theme-light.acc-dark) .tab.active {
+  color: var(--colorAccentBg);
+}
+
+/* One of my mods that shows possible handling of long values.
+ * It puts a pattern of crosses as the speed dial background.
+ * (I don't require exactly this style for multi-line comments, just choose one
+ * that looks nice enough to you and stay consistent across the file.) */
+.startpage {
+  --sdPatternBg: var(--colorBgDarker);
+  /* Pattern: https://projects.verou.me/css3patterns/#cross */
+  background:
+    radial-gradient(circle, transparent 20%, var(--sdPatternBg) 20%,
+      var(--sdPatternBg) 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, var(--sdPatternBg) 20%,
+      var(--sdPatternBg) 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(var(--colorBgLighter) 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, var(--colorBgLighter) 8px, transparent 8px) -4px 0 !important;
+  background-color: var(--sdPatternBg) !important;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px !important;
+}
+```
 
 ### JavaScript
 
-- **Never** use `var`; prefer `const` where possible,
-- use camelCase for variable names; start them with a lowercase letter (classes
-  start with an uppercase letter),
-- use `SHOUTING_SNAKE_CASE` for constants defined in code (as opposed to
-  constants generated during runtime),
-- use semicolons even where they aren’t necessary,
-- put all types of opening brackets at the end of the line,
-- put closing brackets and braces on a new line,
-- keep closing parentheses at the same line as the statement they close,
-- prefer line comments to block comments if they span only one line,
-- put spaces at the start and end of block comments and at the start of line
-  comments.
+```javascript
+/* Example code for JS style */
+
+// Actually, that above comment is /* */ only because it is usually longer
+
+(function () {
+  const TEXTS_TO_APPEAR = ['foo', 'bar', 'baz'];
+
+  const ID_OF_SOME_ELEMENT = 'my-mod-element';
+  const browser = document.getElementById('#browser');
+
+  // Adds the element this mod is all about
+  function addElement() {
+    // If the condition and/or call is too long, put them on separate lines
+    if (document.getElementById(ID_OF_SOME_ELEMENT)) return;
+
+    const elm = document.createElement('div');
+    elm.id = ID_OF_SOME_ELEMENT;
+
+    for (let text of TEXTS_TO_APPEAR) {
+      let textElm = document.createElement('div');
+      textElm.innerHTML = text;
+      elm.append(textElm);
+    }
+
+    browser.append(elm);
+  }
+
+  // If you ever need to create all the arguments when calling the function...
+  some.complicatedFunctionCall(
+    another.function(),
+    { foo: 'bar' },
+    {
+      foo: 10,
+      bar: 20,
+      baz: 30
+    });
+
+  addElement();
+})();
+```

@@ -1,4 +1,4 @@
-# Installation of mods
+# Installation of Modifications
 
 Author(s): tiosgz (potmeklecbohdan)
 
@@ -39,14 +39,14 @@ file name must end with **`.css`**.
 Restart Vivaldi. After that, you should see the effect of the modification. If
 you do not, double check all the requirements above.
 
-### Updating CSS modifications
+### Updating CSS Modifications
 
 When the author of a mod releases a new version, you will have to update your
 local copy yourself. This is nothing hard: just find the file in which you saved
 the original mod, open it, remove **all** text, copy-paste the new version into
 it, and save it. When you are done updating, do not forget to restart Vivaldi.
 
-### Disabling CSS modifications
+### Disabling CSS Modifications
 
 To disable all CSS modifications at once, you can go to `vivaldi://experiments`
 and untick “Allow for using CSS modifications,” or go to the “Appearance” tab in
@@ -124,13 +124,13 @@ For example, if you have put it in the `mods` folder and it is called
 When you are done, save the file. After restarting Vivaldi you should see the
 effect of the modifications.
 
-### After a Vivaldi update
+### After a Vivaldi Update
 
 Every Vivaldi update causes all your JS mods to be removed. Follow the steps
 above, beginning with finding the folder where Vivaldi is installed (if you are
 on Linux, you can usually skip the copying of modification files).
 
-### Updating JavaScript modifications
+### Updating JavaScript Modifications
 
 To update a JS mod, edit the file in which it is stored: remove all text,
 copy-paste all text of the new version and save the file.
@@ -138,7 +138,7 @@ copy-paste all text of the new version and save the file.
 Then you will have to copy the file into the folder within Vivaldi’s files (see
 above where it is located).
 
-### Disabling JavaScript modifications
+### Disabling JavaScript Modifications
 
 To disable a JS mod, remove its line in `browser.html` (see above where it is
 located).
@@ -150,7 +150,7 @@ let’s say, `browser-modded.html` before).
 To completely remove a JS mod, apart from doing the above, remove both its files
 so that you don’t reuse it the next time you re-apply your mods.
 
-## Creating a plain text file
+## Creating a Plain Text File
 
 1. open a text editor; if you are unsure what that is, try these:
    - on Windows, Notepad should be pre-installed
