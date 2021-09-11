@@ -19,3 +19,7 @@ Vivaldi, make sure that you have all modifications disabled.**
     with it?*
   - [Inspecting the UI with DevTools](basics/devtools.md)
 - Advanced
+- Community
+  - [Asking Questions](community/asking-questions.md)—*Where can I get help?*
+  - [Sharing Mods](community/sharing-mods.md)—please do not keep your mods for
+    yourself!
